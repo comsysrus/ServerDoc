@@ -1,0 +1,1887 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="TDM_Report">
+        <link rel="stylesheet" type="text/css" media="screen" href="anim.css" title="report">
+        <link rel="stylesheet" type="text/css" media="print" href="anim_NoFrames_print.css" title="report">
+            <script src="tdmShowDetails.js" type="text/javascript"></script>
+        <title>Toad Data Modeler - HTML Report</title>
+    </head>
+
+<body onLoad="getUrlItem()"><div class="mainContainer"><div id="headerContainer"><div id="header"><div class="title1"></div><div class="title2">Users</div><div class="reportStats">11 января 2021 г. 15:24:05</div><div class="titleimage"><a href="https://www.quest.com/" target="_blank"><img src="Img/logo.png" alt="Made with Toad Data Modeler" border="0" /></a></div><div class="headerEnd"><p>&nbsp;</p></div></div><div id="navTop"><ul><li><a href="MInfo.html">Model Info</a></li><li><a href="MImage.html">ER Diagram</a></li><li><a href="Tables.html">Entities</a></li><li><a href="Columns.html">Attributes</a></li><li><a href="Indexes.html">Indexes</a></li><li><a href="Keys.html">Keys</a></li><li><a href="Triggers.html">Triggers</a></li><li><a href="Packages.html">Packages</a></li><li><a href="Sequences.html">Sequences</a></li><li><a href="Tablespaces.html">Tablespaces</a></li><li><a href="Directories.html">Directories</a></li><li><a href="Editions.html">Editions</a></li><li class="selLi"><a href="Users.html" class="selAnchor">Users</a></li><li><a href="UserGroups.html">User Groups</a></li></ul><div id="navTopEnd"><p>&nbsp;</p></div></div></div><div id="navCombo"><form name="allItems" action=""><select name="listOfItems" onChange="showSelected()"><option value="User_{B990A6A6-1066-43F3-8CB3-A17246BE3E56}">ANONYMOUS</option><option value="User_{43CAA30D-876D-4806-A047-59DDE76D5D2A}">APEX_030200</option><option value="User_{836E5802-68B7-4EB8-BFA4-B426E900D63A}">APEX_PUBLIC_USER</option><option value="User_{8C77B179-200C-4120-840F-662F6CF18AB2}">APPQOSSYS</option><option value="User_{8AFA472C-E865-4AED-A747-88AC9EB9129B}">BI</option><option value="User_{1E2B8701-81EA-45A2-B7E9-2ED98297DECA}">CTXSYS</option><option value="User_{F9FDF025-C29B-4BB8-A216-1B742C6DDDF8}">DBSNMP</option><option value="User_{5EC9E3C1-535E-4174-BC94-BA3379A142B2}">DIMO</option><option value="User_{74EFF9BE-DEC4-43E6-9A38-75DC6512B468}">DIP</option><option value="User_{11058975-878D-40B0-B227-18E4454275D9}">EXFSYS</option><option value="User_{E697FAA1-5A91-433B-B34A-97BC44D4E347}">FLOWS_FILES</option><option value="User_{6078B667-879C-4971-9548-309556F4A057}">HR</option><option value="User_{642FA6CA-7026-428D-9743-32520A7F2457}">IX</option><option value="User_{0089F386-89E3-44FC-8562-0863B9E60A27}">MDDATA</option><option value="User_{32AB6EF1-1751-4AD1-AA3A-28F1ED6829C7}">MDSYS</option><option value="User_{6D3A3226-F29A-48D9-8DBE-259E9B8F442C}">MGMT_VIEW</option><option value="User_{30143E8A-ECA9-4DFC-BF85-DAB6D9CCF8EF}">OE</option><option value="User_{9CEAF47C-7C7D-4BD8-B71F-3F91908DE9AA}">OLAPSYS</option><option value="User_{1BD6DD53-9AA5-49F3-8D14-54165C2E3358}">ORABET</option><option value="User_{C0BB0121-0F30-4103-9B04-128E60326D40}">ORACLE_OCM</option><option value="User_{3BCF2066-334B-4597-8293-337248F95397}">ORDDATA</option><option value="User_{DB473538-A155-4A90-877D-81F3D6346E19}">ORDPLUGINS</option><option value="User_{CDA1066A-D78A-429D-A7F3-72D3184B3847}">ORDSYS</option><option value="User_{56158E18-88CE-449D-80DD-74DCC0C7EFBD}">OUTLN</option><option value="User_{46BFAA1F-5FF5-43F1-A540-614821AC7515}">OWBSYS</option><option value="User_{BF67AA58-6A31-4C72-84FD-111F6244D266}">OWBSYS_AUDIT</option><option value="User_{5FBDC309-27C9-4951-8209-494A6B8D9DFC}">PM</option><option value="User_{80BB1B48-CB34-4B54-B5A7-B86DDBE91A8B}">PUBLIC</option><option value="User_{E5D2EEDC-30B1-4C1F-B93F-F2975DA08D31}">QUIK</option><option value="User_{24470F4C-B3D3-4CEC-9DA4-80B6F2F56B6C}">SCOTT</option><option value="User_{BE01C4A7-6D59-4620-97EC-83B1D36E5C20}">SH</option><option value="User_{307BE644-2D4F-44DC-A608-EFC67A1AF54B}">SI_INFORMTN_SCHEMA</option><option value="User_{F5541D42-A160-42CB-A5F3-CC261921DCD7}">SPATIAL_CSW_ADMIN_USR</option><option value="User_{23923422-A6A4-4672-9DC7-0D61D3727689}">SPATIAL_WFS_ADMIN_USR</option><option value="User_{E9A3740A-1481-45B3-8F9D-7F3B132E26CA}">SYS</option><option value="User_{3B60FE69-F466-405D-877B-38426BB0E905}">SYSMAN</option><option value="User_{6BC29458-A87B-4354-87FA-3096897FEAB5}">SYSTEM</option><option value="User_{AD08D501-0A14-4CD2-AE6A-0B84220D06EF}">TEST</option><option value="User_{11AFCAC5-AD20-4C44-B958-0C3C81259C1B}">WMSYS</option><option value="User_{C003E1CC-FD15-4A65-A3B8-DC8199E9CA21}">XDB</option><option value="User_{7A476F87-9368-4893-A870-8DDB758F3946}">XETRADE</option><option value="User_{876B972E-F52D-4440-A37C-3B8CF1520C20}">XS$NULL</option></select></form><div id="navComboEnd"><p></p></div></div><div id="navLeft"><div id="bookmark"><ul><li><a onClick="return showDetail('User_{B990A6A6-1066-43F3-8CB3-A17246BE3E56}', this)">ANONYMOUS</a></li><li><a onClick="return showDetail('User_{43CAA30D-876D-4806-A047-59DDE76D5D2A}', this)">APEX_030200</a></li><li><a onClick="return showDetail('User_{836E5802-68B7-4EB8-BFA4-B426E900D63A}', this)">APEX_PUBLIC_USER</a></li><li><a onClick="return showDetail('User_{8C77B179-200C-4120-840F-662F6CF18AB2}', this)">APPQOSSYS</a></li><li><a onClick="return showDetail('User_{8AFA472C-E865-4AED-A747-88AC9EB9129B}', this)">BI</a></li><li><a onClick="return showDetail('User_{1E2B8701-81EA-45A2-B7E9-2ED98297DECA}', this)">CTXSYS</a></li><li><a onClick="return showDetail('User_{F9FDF025-C29B-4BB8-A216-1B742C6DDDF8}', this)">DBSNMP</a></li><li><a onClick="return showDetail('User_{5EC9E3C1-535E-4174-BC94-BA3379A142B2}', this)">DIMO</a></li><li><a onClick="return showDetail('User_{74EFF9BE-DEC4-43E6-9A38-75DC6512B468}', this)">DIP</a></li><li><a onClick="return showDetail('User_{11058975-878D-40B0-B227-18E4454275D9}', this)">EXFSYS</a></li><li><a onClick="return showDetail('User_{E697FAA1-5A91-433B-B34A-97BC44D4E347}', this)">FLOWS_FILES</a></li><li><a onClick="return showDetail('User_{6078B667-879C-4971-9548-309556F4A057}', this)">HR</a></li><li><a onClick="return showDetail('User_{642FA6CA-7026-428D-9743-32520A7F2457}', this)">IX</a></li><li><a onClick="return showDetail('User_{0089F386-89E3-44FC-8562-0863B9E60A27}', this)">MDDATA</a></li><li><a onClick="return showDetail('User_{32AB6EF1-1751-4AD1-AA3A-28F1ED6829C7}', this)">MDSYS</a></li><li><a onClick="return showDetail('User_{6D3A3226-F29A-48D9-8DBE-259E9B8F442C}', this)">MGMT_VIEW</a></li><li><a onClick="return showDetail('User_{30143E8A-ECA9-4DFC-BF85-DAB6D9CCF8EF}', this)">OE</a></li><li><a onClick="return showDetail('User_{9CEAF47C-7C7D-4BD8-B71F-3F91908DE9AA}', this)">OLAPSYS</a></li><li><a onClick="return showDetail('User_{1BD6DD53-9AA5-49F3-8D14-54165C2E3358}', this)">ORABET</a></li><li><a onClick="return showDetail('User_{C0BB0121-0F30-4103-9B04-128E60326D40}', this)">ORACLE_OCM</a></li><li><a onClick="return showDetail('User_{3BCF2066-334B-4597-8293-337248F95397}', this)">ORDDATA</a></li><li><a onClick="return showDetail('User_{DB473538-A155-4A90-877D-81F3D6346E19}', this)">ORDPLUGINS</a></li><li><a onClick="return showDetail('User_{CDA1066A-D78A-429D-A7F3-72D3184B3847}', this)">ORDSYS</a></li><li><a onClick="return showDetail('User_{56158E18-88CE-449D-80DD-74DCC0C7EFBD}', this)">OUTLN</a></li><li><a onClick="return showDetail('User_{46BFAA1F-5FF5-43F1-A540-614821AC7515}', this)">OWBSYS</a></li><li><a onClick="return showDetail('User_{BF67AA58-6A31-4C72-84FD-111F6244D266}', this)">OWBSYS_AUDIT</a></li><li><a onClick="return showDetail('User_{5FBDC309-27C9-4951-8209-494A6B8D9DFC}', this)">PM</a></li><li><a onClick="return showDetail('User_{80BB1B48-CB34-4B54-B5A7-B86DDBE91A8B}', this)">PUBLIC</a></li><li><a onClick="return showDetail('User_{E5D2EEDC-30B1-4C1F-B93F-F2975DA08D31}', this)">QUIK</a></li><li><a onClick="return showDetail('User_{24470F4C-B3D3-4CEC-9DA4-80B6F2F56B6C}', this)">SCOTT</a></li><li><a onClick="return showDetail('User_{BE01C4A7-6D59-4620-97EC-83B1D36E5C20}', this)">SH</a></li><li><a onClick="return showDetail('User_{307BE644-2D4F-44DC-A608-EFC67A1AF54B}', this)">SI_INFORMTN_SCHEMA</a></li><li><a onClick="return showDetail('User_{F5541D42-A160-42CB-A5F3-CC261921DCD7}', this)">SPATIAL_CSW_ADMIN_USR</a></li><li><a onClick="return showDetail('User_{23923422-A6A4-4672-9DC7-0D61D3727689}', this)">SPATIAL_WFS_ADMIN_USR</a></li><li><a onClick="return showDetail('User_{E9A3740A-1481-45B3-8F9D-7F3B132E26CA}', this)">SYS</a></li><li><a onClick="return showDetail('User_{3B60FE69-F466-405D-877B-38426BB0E905}', this)">SYSMAN</a></li><li><a onClick="return showDetail('User_{6BC29458-A87B-4354-87FA-3096897FEAB5}', this)">SYSTEM</a></li><li><a onClick="return showDetail('User_{AD08D501-0A14-4CD2-AE6A-0B84220D06EF}', this)">TEST</a></li><li><a onClick="return showDetail('User_{11AFCAC5-AD20-4C44-B958-0C3C81259C1B}', this)">WMSYS</a></li><li><a onClick="return showDetail('User_{C003E1CC-FD15-4A65-A3B8-DC8199E9CA21}', this)">XDB</a></li><li><a onClick="return showDetail('User_{7A476F87-9368-4893-A870-8DDB758F3946}', this)">XETRADE</a></li><li><a onClick="return showDetail('User_{876B972E-F52D-4440-A37C-3B8CF1520C20}', this)">XS$NULL</a></li></ul><div id="bookmarkEnd"><p>&nbsp;</p></div></div></div><div class="separator" ></div><div class="container"><div id="content"><div id="User_{B990A6A6-1066-43F3-8CB3-A17246BE3E56}" class="item">
+<a name = "User_{B990A6A6-1066-43F3-8CB3-A17246BE3E56}"></a>
+<div class="caption1"><p>ANONYMOUS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ANONYMOUS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;ANONYMOUS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{43CAA30D-876D-4806-A047-59DDE76D5D2A}" class="item">
+<a name = "User_{43CAA30D-876D-4806-A047-59DDE76D5D2A}"></a>
+<div class="caption1"><p>APEX_030200</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">APEX_030200</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;APEX_030200&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{836E5802-68B7-4EB8-BFA4-B426E900D63A}" class="item">
+<a name = "User_{836E5802-68B7-4EB8-BFA4-B426E900D63A}"></a>
+<div class="caption1"><p>APEX_PUBLIC_USER</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">APEX_PUBLIC_USER</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;APEX_PUBLIC_USER&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{8C77B179-200C-4120-840F-662F6CF18AB2}" class="item">
+<a name = "User_{8C77B179-200C-4120-840F-662F6CF18AB2}"></a>
+<div class="caption1"><p>APPQOSSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">APPQOSSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;APPQOSSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;<br>   QUOTA UNLIMITED ON &quot;SYSAUX&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{8AFA472C-E865-4AED-A747-88AC9EB9129B}" class="item">
+<a name = "User_{8AFA472C-E865-4AED-A747-88AC9EB9129B}"></a>
+<div class="caption1"><p>BI</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">BI</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;BI&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{1E2B8701-81EA-45A2-B7E9-2ED98297DECA}" class="item">
+<a name = "User_{1E2B8701-81EA-45A2-B7E9-2ED98297DECA}"></a>
+<div class="caption1"><p>CTXSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">CTXSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;CTXSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">CTXAPP</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{F9FDF025-C29B-4BB8-A216-1B742C6DDDF8}" class="item">
+<a name = "User_{F9FDF025-C29B-4BB8-A216-1B742C6DDDF8}"></a>
+<div class="caption1"><p>DBSNMP</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">DBSNMP</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;DBSNMP&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;<br>   PROFILE &quot;MONITORING_PROFILE&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_MONITOR</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{5EC9E3C1-535E-4174-BC94-BA3379A142B2}" class="item">
+<a name = "User_{5EC9E3C1-535E-4174-BC94-BA3379A142B2}"></a>
+<div class="caption1"><p>DIMO</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">DIMO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;DIMO&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">DBA</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Permissions: Entities</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="30%">Entity Name</td>
+<td class="tabhead" width="20%">Grantor</td>
+<td class="tabhead">SELECT</td>
+<td class="tabhead">INSERT</td>
+<td class="tabhead">UPDATE</td>
+<td class="tabhead">DELETE</td>
+<td class="tabhead">REFERENCES</td>
+<td class="tabhead">ALTER</td>
+<td class="tabhead">INDEX</td>
+<td class="tabhead">DEBUG</td>
+<td class="tabhead">FLASHBACK</td>
+<td class="tabhead">ON COMMIT REFRESH</td>
+<td class="tabhead">QUERY REWRITE</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ACTIVES</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERTNEWDATA</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERT_TABLE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{74EFF9BE-DEC4-43E6-9A38-75DC6512B468}" class="item">
+<a name = "User_{74EFF9BE-DEC4-43E6-9A38-75DC6512B468}"></a>
+<div class="caption1"><p>DIP</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">DIP</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;DIP&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{11058975-878D-40B0-B227-18E4454275D9}" class="item">
+<a name = "User_{11058975-878D-40B0-B227-18E4454275D9}"></a>
+<div class="caption1"><p>EXFSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">EXFSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;EXFSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{E697FAA1-5A91-433B-B34A-97BC44D4E347}" class="item">
+<a name = "User_{E697FAA1-5A91-433B-B34A-97BC44D4E347}"></a>
+<div class="caption1"><p>FLOWS_FILES</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">FLOWS_FILES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;FLOWS_FILES&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;<br>   QUOTA UNLIMITED ON &quot;SYSAUX&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{6078B667-879C-4971-9548-309556F4A057}" class="item">
+<a name = "User_{6078B667-879C-4971-9548-309556F4A057}"></a>
+<div class="caption1"><p>HR</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">HR</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;HR&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{642FA6CA-7026-428D-9743-32520A7F2457}" class="item">
+<a name = "User_{642FA6CA-7026-428D-9743-32520A7F2457}"></a>
+<div class="caption1"><p>IX</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">IX</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;IX&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_USER_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">SELECT_CATALOG_ROLE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{0089F386-89E3-44FC-8562-0863B9E60A27}" class="item">
+<a name = "User_{0089F386-89E3-44FC-8562-0863B9E60A27}"></a>
+<div class="caption1"><p>MDDATA</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">MDDATA</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;MDDATA&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{32AB6EF1-1751-4AD1-AA3A-28F1ED6829C7}" class="item">
+<a name = "User_{32AB6EF1-1751-4AD1-AA3A-28F1ED6829C7}"></a>
+<div class="caption1"><p>MDSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">MDSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;MDSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{6D3A3226-F29A-48D9-8DBE-259E9B8F442C}" class="item">
+<a name = "User_{6D3A3226-F29A-48D9-8DBE-259E9B8F442C}"></a>
+<div class="caption1"><p>MGMT_VIEW</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">MGMT_VIEW</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;MGMT_VIEW&quot; IDENTIFIED BY --secret_password--<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSTEM&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">MGMT_USER</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{30143E8A-ECA9-4DFC-BF85-DAB6D9CCF8EF}" class="item">
+<a name = "User_{30143E8A-ECA9-4DFC-BF85-DAB6D9CCF8EF}"></a>
+<div class="caption1"><p>OE</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">OE</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;OE&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">XDBADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{9CEAF47C-7C7D-4BD8-B71F-3F91908DE9AA}" class="item">
+<a name = "User_{9CEAF47C-7C7D-4BD8-B71F-3F91908DE9AA}"></a>
+<div class="caption1"><p>OLAPSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">OLAPSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;OLAPSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;<br>   QUOTA UNLIMITED ON &quot;SYSAUX&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_DBA</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{1BD6DD53-9AA5-49F3-8D14-54165C2E3358}" class="item">
+<a name = "User_{1BD6DD53-9AA5-49F3-8D14-54165C2E3358}"></a>
+<div class="caption1"><p>ORABET</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ORABET</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;ORABET&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">WFS_USR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES</td>
+</tr>
+<tr>
+<td class="tabdata">EJBCLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">JAVADEBUGPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">LOGSTDBY_ADMINISTRATOR</td>
+</tr>
+<tr>
+<td class="tabdata">DELETE_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">APEX_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OLAPI_TRACE_USER</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_SET_INVOKER</td>
+</tr>
+<tr>
+<td class="tabdata">SCHEDULER_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">DATAPUMP_IMP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DBFS_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">EXP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">MGMT_USER</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_WFS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_USER</td>
+</tr>
+<tr>
+<td class="tabdata">CTXAPP</td>
+</tr>
+<tr>
+<td class="tabdata">SELECT_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DBA</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CSW_USR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAUSERPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_CSW_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_DBA</td>
+</tr>
+<tr>
+<td class="tabdata">ORDADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">XDBADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_MONITOR</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_SELECT_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">RECOVERY_CATALOG_OWNER</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_USER_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">EXECUTE_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB$CLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_XS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES_WITH_PUBLIC</td>
+</tr>
+<tr>
+<td class="tabdata">AUTHENTICATEDUSER</td>
+</tr>
+<tr>
+<td class="tabdata">ADM_PARALLEL_EXECUTE_TASK</td>
+</tr>
+<tr>
+<td class="tabdata">IMP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_USER</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES_OVER_HTTP</td>
+</tr>
+<tr>
+<td class="tabdata">JAVASYSPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAIDPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_EXECUTE_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DATAPUMP_EXP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_DESIGNCENTER_VIEW</td>
+</tr>
+<tr>
+<td class="tabdata">CWM_USER</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_DEPLOY</td>
+</tr>
+<tr>
+<td class="tabdata">JMXSERVER</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_ADVISOR</td>
+</tr>
+<tr>
+<td class="tabdata">GATHER_SYSTEM_STATISTICS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Permissions: Entities</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="30%">Entity Name</td>
+<td class="tabhead" width="20%">Grantor</td>
+<td class="tabhead">SELECT</td>
+<td class="tabhead">INSERT</td>
+<td class="tabhead">UPDATE</td>
+<td class="tabhead">DELETE</td>
+<td class="tabhead">REFERENCES</td>
+<td class="tabhead">ALTER</td>
+<td class="tabhead">INDEX</td>
+<td class="tabhead">DEBUG</td>
+<td class="tabhead">FLASHBACK</td>
+<td class="tabhead">ON COMMIT REFRESH</td>
+<td class="tabhead">QUERY REWRITE</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ACTIVES</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ACTIVES</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ACTIVES</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERTNEWDATA</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERTNEWDATA</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERTNEWDATA</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERT_TABLE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERT_TABLE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERT_TABLE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{C0BB0121-0F30-4103-9B04-128E60326D40}" class="item">
+<a name = "User_{C0BB0121-0F30-4103-9B04-128E60326D40}"></a>
+<div class="caption1"><p>ORACLE_OCM</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ORACLE_OCM</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;ORACLE_OCM&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{3BCF2066-334B-4597-8293-337248F95397}" class="item">
+<a name = "User_{3BCF2066-334B-4597-8293-337248F95397}"></a>
+<div class="caption1"><p>ORDDATA</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ORDDATA</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;ORDDATA&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{DB473538-A155-4A90-877D-81F3D6346E19}" class="item">
+<a name = "User_{DB473538-A155-4A90-877D-81F3D6346E19}"></a>
+<div class="caption1"><p>ORDPLUGINS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ORDPLUGINS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;ORDPLUGINS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{CDA1066A-D78A-429D-A7F3-72D3184B3847}" class="item">
+<a name = "User_{CDA1066A-D78A-429D-A7F3-72D3184B3847}"></a>
+<div class="caption1"><p>ORDSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ORDSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;ORDSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAUSERPRIV</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{56158E18-88CE-449D-80DD-74DCC0C7EFBD}" class="item">
+<a name = "User_{56158E18-88CE-449D-80DD-74DCC0C7EFBD}"></a>
+<div class="caption1"><p>OUTLN</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">OUTLN</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;OUTLN&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSTEM&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{46BFAA1F-5FF5-43F1-A540-614821AC7515}" class="item">
+<a name = "User_{46BFAA1F-5FF5-43F1-A540-614821AC7515}"></a>
+<div class="caption1"><p>OWBSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">OWBSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;OWBSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_USER</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAUSERPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_USER_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_USER</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_DESIGNCENTER_VIEW</td>
+</tr>
+<tr>
+<td class="tabdata">OWB$CLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">CWM_USER</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{BF67AA58-6A31-4C72-84FD-111F6244D266}" class="item">
+<a name = "User_{BF67AA58-6A31-4C72-84FD-111F6244D266}"></a>
+<div class="caption1"><p>OWBSYS_AUDIT</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">OWBSYS_AUDIT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;OWBSYS_AUDIT&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{5FBDC309-27C9-4951-8209-494A6B8D9DFC}" class="item">
+<a name = "User_{5FBDC309-27C9-4951-8209-494A6B8D9DFC}"></a>
+<div class="caption1"><p>PM</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">PM</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;PM&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{80BB1B48-CB34-4B54-B5A7-B86DDBE91A8B}" class="item">
+<a name = "User_{80BB1B48-CB34-4B54-B5A7-B86DDBE91A8B}"></a>
+<div class="caption1"><p>PUBLIC</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">PUBLIC</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{E5D2EEDC-30B1-4C1F-B93F-F2975DA08D31}" class="item">
+<a name = "User_{E5D2EEDC-30B1-4C1F-B93F-F2975DA08D31}"></a>
+<div class="caption1"><p>QUIK</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">QUIK</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;QUIK&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{24470F4C-B3D3-4CEC-9DA4-80B6F2F56B6C}" class="item">
+<a name = "User_{24470F4C-B3D3-4CEC-9DA4-80B6F2F56B6C}"></a>
+<div class="caption1"><p>SCOTT</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SCOTT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SCOTT&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{BE01C4A7-6D59-4620-97EC-83B1D36E5C20}" class="item">
+<a name = "User_{BE01C4A7-6D59-4620-97EC-83B1D36E5C20}"></a>
+<div class="caption1"><p>SH</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SH</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SH&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">SELECT_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">CWM_USER</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{307BE644-2D4F-44DC-A608-EFC67A1AF54B}" class="item">
+<a name = "User_{307BE644-2D4F-44DC-A608-EFC67A1AF54B}"></a>
+<div class="caption1"><p>SI_INFORMTN_SCHEMA</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SI_INFORMTN_SCHEMA</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SI_INFORMTN_SCHEMA&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{F5541D42-A160-42CB-A5F3-CC261921DCD7}" class="item">
+<a name = "User_{F5541D42-A160-42CB-A5F3-CC261921DCD7}"></a>
+<div class="caption1"><p>SPATIAL_CSW_ADMIN_USR</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SPATIAL_CSW_ADMIN_USR</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SPATIAL_CSW_ADMIN_USR&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_CSW_ADMIN</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{23923422-A6A4-4672-9DC7-0D61D3727689}" class="item">
+<a name = "User_{23923422-A6A4-4672-9DC7-0D61D3727689}"></a>
+<div class="caption1"><p>SPATIAL_WFS_ADMIN_USR</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SPATIAL_WFS_ADMIN_USR</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SPATIAL_WFS_ADMIN_USR&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_WFS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{E9A3740A-1481-45B3-8F9D-7F3B132E26CA}" class="item">
+<a name = "User_{E9A3740A-1481-45B3-8F9D-7F3B132E26CA}"></a>
+<div class="caption1"><p>SYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SYS&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;SYSTEM&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_SET_INVOKER</td>
+</tr>
+<tr>
+<td class="tabdata">XDBADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">JMXSERVER</td>
+</tr>
+<tr>
+<td class="tabdata">IMP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">APEX_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">JAVADEBUGPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAIDPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">RECOVERY_CATALOG_OWNER</td>
+</tr>
+<tr>
+<td class="tabdata">DELETE_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">CSW_USR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_XS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">DBA</td>
+</tr>
+<tr>
+<td class="tabdata">WFS_USR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES_OVER_HTTP</td>
+</tr>
+<tr>
+<td class="tabdata">AUTHENTICATEDUSER</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAUSERPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">ADM_PARALLEL_EXECUTE_TASK</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_DESIGNCENTER_VIEW</td>
+</tr>
+<tr>
+<td class="tabdata">CWM_USER</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_DBA</td>
+</tr>
+<tr>
+<td class="tabdata">ORDADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_SELECT_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DATAPUMP_IMP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">EXP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB$CLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">MGMT_USER</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_CSW_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">CTXAPP</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_MONITOR</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_EXECUTE_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DATAPUMP_EXP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DBFS_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_WFS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_USER</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_DEPLOY</td>
+</tr>
+<tr>
+<td class="tabdata">EJBCLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">JAVASYSPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">SCHEDULER_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_USER_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">LOGSTDBY_ADMINISTRATOR</td>
+</tr>
+<tr>
+<td class="tabdata">EXECUTE_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_USER</td>
+</tr>
+<tr>
+<td class="tabdata">OLAPI_TRACE_USER</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES_WITH_PUBLIC</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_ADVISOR</td>
+</tr>
+<tr>
+<td class="tabdata">GATHER_SYSTEM_STATISTICS</td>
+</tr>
+<tr>
+<td class="tabdata">SELECT_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{3B60FE69-F466-405D-877B-38426BB0E905}" class="item">
+<a name = "User_{3B60FE69-F466-405D-877B-38426BB0E905}"></a>
+<div class="caption1"><p>SYSMAN</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SYSMAN</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SYSMAN&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;<br>   QUOTA UNLIMITED ON &quot;SYSAUX&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">MGMT_USER</td>
+</tr>
+<tr>
+<td class="tabdata">SELECT_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{6BC29458-A87B-4354-87FA-3096897FEAB5}" class="item">
+<a name = "User_{6BC29458-A87B-4354-87FA-3096897FEAB5}"></a>
+<div class="caption1"><p>SYSTEM</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SYSTEM</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SYSTEM&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;SYSTEM&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">MGMT_USER</td>
+</tr>
+<tr>
+<td class="tabdata">DBA</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{AD08D501-0A14-4CD2-AE6A-0B84220D06EF}" class="item">
+<a name = "User_{AD08D501-0A14-4CD2-AE6A-0B84220D06EF}"></a>
+<div class="caption1"><p>TEST</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">TEST</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;TEST&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">DBA</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{11AFCAC5-AD20-4C44-B958-0C3C81259C1B}" class="item">
+<a name = "User_{11AFCAC5-AD20-4C44-B958-0C3C81259C1B}"></a>
+<div class="caption1"><p>WMSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">WMSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;WMSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">WM_ADMIN_ROLE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{C003E1CC-FD15-4A65-A3B8-DC8199E9CA21}" class="item">
+<a name = "User_{C003E1CC-FD15-4A65-A3B8-DC8199E9CA21}"></a>
+<div class="caption1"><p>XDB</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">XDB</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;XDB&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CTXAPP</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAUSERPRIV</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{7A476F87-9368-4893-A870-8DDB758F3946}" class="item">
+<a name = "User_{7A476F87-9368-4893-A870-8DDB758F3946}"></a>
+<div class="caption1"><p>XETRADE</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">XETRADE</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;XETRADE&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">APEX_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_USER</td>
+</tr>
+<tr>
+<td class="tabdata">XDBADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">CTXAPP</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_DEPLOY</td>
+</tr>
+<tr>
+<td class="tabdata">ADM_PARALLEL_EXECUTE_TASK</td>
+</tr>
+<tr>
+<td class="tabdata">OLAPI_TRACE_USER</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES</td>
+</tr>
+<tr>
+<td class="tabdata">EJBCLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_USER_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DBFS_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">EXECUTE_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_DESIGNCENTER_VIEW</td>
+</tr>
+<tr>
+<td class="tabdata">OWB$CLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_WFS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">JMXSERVER</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_EXECUTE_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">EXP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">MGMT_USER</td>
+</tr>
+<tr>
+<td class="tabdata">CSW_USR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_DBA</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_SELECT_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DATAPUMP_IMP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_USER</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_XS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES_OVER_HTTP</td>
+</tr>
+<tr>
+<td class="tabdata">AUTHENTICATEDUSER</td>
+</tr>
+<tr>
+<td class="tabdata">DELETE_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">SELECT_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_CSW_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">CWM_USER</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_MONITOR</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_ADVISOR</td>
+</tr>
+<tr>
+<td class="tabdata">GATHER_SYSTEM_STATISTICS</td>
+</tr>
+<tr>
+<td class="tabdata">DATAPUMP_EXP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">WFS_USR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES_WITH_PUBLIC</td>
+</tr>
+<tr>
+<td class="tabdata">JAVADEBUGPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">JAVASYSPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAIDPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAUSERPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">SCHEDULER_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">LOGSTDBY_ADMINISTRATOR</td>
+</tr>
+<tr>
+<td class="tabdata">ORDADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_SET_INVOKER</td>
+</tr>
+<tr>
+<td class="tabdata">RECOVERY_CATALOG_OWNER</td>
+</tr>
+<tr>
+<td class="tabdata">IMP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">DBA</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{876B972E-F52D-4440-A37C-3B8CF1520C20}" class="item">
+<a name = "User_{876B972E-F52D-4440-A37C-3B8CF1520C20}"></a>
+<div class="caption1"><p>XS$NULL</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">XS$NULL</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;XS$NULL&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+</div><div id="footer"><div class="pageFooter">Copyright &copy; Sitename 2005</div><div class="footerEnd"><p></p></div></div></div></div></body></html>

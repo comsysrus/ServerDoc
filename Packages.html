@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="TDM_Report">
+        <link rel="stylesheet" type="text/css" media="screen" href="anim.css" title="report">
+        <link rel="stylesheet" type="text/css" media="print" href="anim_NoFrames_print.css" title="report">
+            <script src="tdmShowDetails.js" type="text/javascript"></script>
+        <title>Toad Data Modeler - HTML Report</title>
+    </head>
+
+<body onLoad="getUrlItem()"><div class="mainContainer"><div id="headerContainer"><div id="header"><div class="title1"></div><div class="title2">Packages</div><div class="reportStats">11 января 2021 г. 15:24:05</div><div class="titleimage"><a href="https://www.quest.com/" target="_blank"><img src="Img/logo.png" alt="Made with Toad Data Modeler" border="0" /></a></div><div class="headerEnd"><p>&nbsp;</p></div></div><div id="navTop"><ul><li><a href="MInfo.html">Model Info</a></li><li><a href="MImage.html">ER Diagram</a></li><li><a href="Tables.html">Entities</a></li><li><a href="Columns.html">Attributes</a></li><li><a href="Indexes.html">Indexes</a></li><li><a href="Keys.html">Keys</a></li><li><a href="Triggers.html">Triggers</a></li><li class="selLi"><a href="Packages.html" class="selAnchor">Packages</a></li><li><a href="Sequences.html">Sequences</a></li><li><a href="Tablespaces.html">Tablespaces</a></li><li><a href="Directories.html">Directories</a></li><li><a href="Editions.html">Editions</a></li><li><a href="Users.html">Users</a></li><li><a href="UserGroups.html">User Groups</a></li></ul><div id="navTopEnd"><p>&nbsp;</p></div></div></div><div id="navCombo"><form name="allItems" action=""><select name="listOfItems" onChange="showSelected()"><option value="Pack_{18D7462F-F305-48BF-AE58-189E87D5FF71}">ORABET.ALFADIRECT_PACK</option><option value="Pack_{BF9C8A54-665F-40A9-9FF6-0597F5FA8BBC}">ORABET.JTRADE_PACK</option><option value="Pack_{D560839C-D8CA-49A5-93F1-2CF68B3FF312}">ORABET.MAIL</option><option value="Pack_{C4ACE468-273C-4DA0-878C-8D523E15CD01}">ORABET.MODELING_PACK</option><option value="Pack_{83B07BF2-FBCC-468B-A820-7F4E7333D5B5}">ORABET.RESULT_PACK</option><option value="Pack_{7EF51696-31E5-44AF-B683-E67D018F6DC0}">ORABET.SYS_PAR_PACK</option><option value="Pack_{C0A79FEE-F155-4705-A0D8-FA5AECF0D8BC}">ORABET.SYSTEM_SERV</option><option value="Pack_{79644019-59D9-41C2-8630-8917D9D7C744}">ORABET.TRADE_PACK</option></select></form><div id="navComboEnd"><p></p></div></div><div id="navLeft"><div id="bookmark"><ul><li><a onClick="return showDetail('Pack_{18D7462F-F305-48BF-AE58-189E87D5FF71}', this)">ORABET.ALFADIRECT_PACK</a></li><li><a onClick="return showDetail('Pack_{BF9C8A54-665F-40A9-9FF6-0597F5FA8BBC}', this)">ORABET.JTRADE_PACK</a></li><li><a onClick="return showDetail('Pack_{D560839C-D8CA-49A5-93F1-2CF68B3FF312}', this)">ORABET.MAIL</a></li><li><a onClick="return showDetail('Pack_{C4ACE468-273C-4DA0-878C-8D523E15CD01}', this)">ORABET.MODELING_PACK</a></li><li><a onClick="return showDetail('Pack_{83B07BF2-FBCC-468B-A820-7F4E7333D5B5}', this)">ORABET.RESULT_PACK</a></li><li><a onClick="return showDetail('Pack_{7EF51696-31E5-44AF-B683-E67D018F6DC0}', this)">ORABET.SYS_PAR_PACK</a></li><li><a onClick="return showDetail('Pack_{C0A79FEE-F155-4705-A0D8-FA5AECF0D8BC}', this)">ORABET.SYSTEM_SERV</a></li><li><a onClick="return showDetail('Pack_{79644019-59D9-41C2-8630-8917D9D7C744}', this)">ORABET.TRADE_PACK</a></li></ul><div id="bookmarkEnd"><p>&nbsp;</p></div></div></div><div class="separator" ></div><div class="container"><div id="content"><div id="Pack_{18D7462F-F305-48BF-AE58-189E87D5FF71}" class="item">
+<a name = "Pack_{18D7462F-F305-48BF-AE58-189E87D5FF71}"></a>
+<div class="caption1"><p>ORABET.ALFADIRECT_PACK</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Specification is Wrapped</td>
+<td class="tabdata" width="90%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="10%">Body Definition is Wrapped</td>
+<td class="tabdata" width="90%">YES</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Pack_{BF9C8A54-665F-40A9-9FF6-0597F5FA8BBC}" class="item">
+<a name = "Pack_{BF9C8A54-665F-40A9-9FF6-0597F5FA8BBC}"></a>
+<div class="caption1"><p>ORABET.JTRADE_PACK</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Specification</td>
+<td class="tabdata" width="90%"><pre><code>AS<br> <br> TYPE jt_crs IS REF CURSOR;<br> <br> procedure storeTradersPorfolio(signal in varchar2, signal_date in date, signal_price in number);<br> <br> END JTRADE_PACK;</code></pre></td>
+</tr>
+<tr>
+<td class="tabhead" width="10%">Body Definition</td>
+<td class="tabdata" width="90%"><pre><code>AS<br> <br> TYPE jt_crs IS REF CURSOR;<br> <br>  procedure storeTradersPorfolio(signal in varchar2, signal_date in  date, signal_price in number) is<br>   begin<br>    null;--insert into PAZUZU_TRADERS.TRADERS_PORTFOLIO(id, signal, signal_date, signal_price) values (ORABET.main_seq.nextval, signal, signal_date, signal_price);<br>   end;<br> END JTRADE_PACK;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Pack_{D560839C-D8CA-49A5-93F1-2CF68B3FF312}" class="item">
+<a name = "Pack_{D560839C-D8CA-49A5-93F1-2CF68B3FF312}"></a>
+<div class="caption1"><p>ORABET.MAIL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Specification</td>
+<td class="tabdata" width="90%"><pre><code>AS<br>   procedure getAllMailMailingList(strategy_true_name in varchar2, res out orabet.result_pack.t_crs);<br> END Mail;</code></pre></td>
+</tr>
+<tr>
+<td class="tabhead" width="10%">Body Definition</td>
+<td class="tabdata" width="90%"><pre><code>AS <br>  <br>   PROCEDURE getAllMailMailingList(strategy_true_name IN VARCHAR2,res OUT orabet.Result_Pack.t_crs) IS<br>    BEGIN <br>     OPEN res FOR  <br>         <br>          SELECT NVL(su.mailbox,0) AS mailbox,ml.system_id, <br>          (SELECT NAME FROM orabet.tradecentersections WHERE ID=ml.section_id) AS NAME FROM orabet.sms_mailing_list ml,<br>          XETRADE.system_users su WHERE system_id=(SELECT ID FROM orabet.PSEUDO_SYSTEM WHERE true_name=strategy_true_name)<br> 		 AND ml.user_id=su.ID AND ml.mess_type_id=2;<br>    END;	    <br>          <br>   END Mail;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Pack_{C4ACE468-273C-4DA0-878C-8D523E15CD01}" class="item">
+<a name = "Pack_{C4ACE468-273C-4DA0-878C-8D523E15CD01}"></a>
+<div class="caption1"><p>ORABET.MODELING_PACK</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Specification</td>
+<td class="tabdata" width="90%"><pre><code>AS<br>  <br>   PROCEDURE  addTradeSignalModelling(strategy_true_name IN VARCHAR2, signal_date IN DATE, signal_price IN NUMBER, signal IN VARCHAR2) ;<br>  <br> END Modeling_Pack;</code></pre></td>
+</tr>
+<tr>
+<td class="tabhead" width="10%">Body Definition</td>
+<td class="tabdata" width="90%"><pre><code>AS<br> <br> PROCEDURE  addTradeSignalModelling(strategy_true_name IN VARCHAR2, signal_date IN DATE, signal_price IN NUMBER, signal IN VARCHAR2) IS<br> sg VARCHAR2(100);<br> sg_id integer;<br> is_resolved integer;<br> rnd integer;<br>  begin<br>  --worked_cancel 0 - не сработал, 1 - сработал, 2 - отменён<br>  select round into rnd from ORABET.pseudo_system where true_name=strategy_true_name;<br>  update ORABET.system_signal2 set id=id where id=(SELECT MAX(ID) FROM ORABET.system_signal2 WHERE strategy_true_name=addTradeSignalModelling.strategy_true_name);<br>  if sql%notfound then <br>               INSERT INTO ORABET.SYSTEM_SIGNAL2 (ID, strategy_true_name, signal_date, signal_price, signal,fact_date, is_stop_active,worked_cancel)<br>                VALUES (ORABET.main_seq.NEXTVAL, strategy_true_name, signal_date, round(signal_price,-rnd), signal, TO_CHAR(SYSDATE, 'yyyymmdd hh24:mi:ss'),0,-1000);<br>          return;        <br>   end if;<br>   <br>           begin<br>             SELECT signal, id INTO sg, sg_id FROM ORABET.system_signal2 WHERE ID = (SELECT MAX(ID) FROM ORABET.system_signal2 WHERE strategy_true_name=addTradeSignalModelling.strategy_true_name);<br>                         IF (LOWER(sg)&lt;&gt;LOWER(signal) AND (LOWER(signal)&lt;&gt;'hold'))  THEN<br>                          if (signal='SetLongStop' or signal='SetShortStop' or signal='NewLongStop' or signal='NewShortStop') then <br>                             update ORABET.SYSTEM_SIGNAL2 set worked_cancel=case when (sg='SetLongStop' or sg='SetShortStop' or sg='NewLongStop' or sg='NewShortStop') then 2 else worked_cancel end, <br>                                                                                                         is_stop_active=case when (sg='SetLongStop' or sg='SetShortStop' or sg='NewLongStop' or sg='NewShortStop') then 0 else is_stop_active end<br>                             where worked_cancel&lt;&gt;1 and id=sg_id; ---сносит все предыдущие сигналы по стратегии, но только если новый сигнал похож на стоп, всем предыдущим стопам ставится признак 2 - отменён, стоп становится неактивным.<br>                          end if;   <br> <br>                          if (signal='SetLongTake' or signal='SetShortTake' or signal='NewLongTake' or signal='NewShortTake') then <br>                             update ORABET.SYSTEM_SIGNAL2 set worked_cancel=case when (sg='SetLongTake' or sg='SetShortTake' or sg='NewLongTake' or sg='NewShortTake') then 2 else worked_cancel end, <br>                                                                                                          is_stop_active=case when (sg='SetLongTake' or sg='SetShortTake' or sg='NewLongTake' or sg='NewShortTake') then 0 else is_stop_active end<br>                             where worked_cancel&lt;&gt;1 and id=sg_id; ---сносит все предыдущие сигналы по стратегии, но только если новый сигнал похож на тейк, всем предыдущим тейкам ставится признак 2 - отменён, стоп становится неактивным.<br>                          end if;   <br>                             <br>                          if (signal='Open Long' or signal='Open Short' or signal='Close Long,Open Short' or signal='Close Short,Open Long' or signal='LongStopCancel' or signal='ShortStopCancel' or signal='LongTakeCancel' or signal='ShortTakeCancel' or signal='Buy' or signal='Sell'<br>                             or signal='StopHasWorkedS' or signal='StopHasWorkedL' or signal='TakeHasWorkedL' or signal='TakeHasWorkedS')  then <br>                             update ORABET.SYSTEM_SIGNAL2 set worked_cancel=2, is_stop_active=0<br>                             where worked_cancel&lt;&gt;1; --сносит все предыдущие сигналы по стратегии, но только если новый сигнал похож на тейк, всем предыдущим тейкам ставится признак 2 - отменён.<br>                                                                   --теперь необходимо обнулять и стопы и тейки при добавлении сигнала, отличающегося от стопа или тейка                            <br>                          end if;<br>                             <br>                             INSERT INTO ORABET.SYSTEM_SIGNAL2 (ID, strategy_true_name, signal_date, signal_price, signal,fact_date, is_stop_active, worked_cancel)<br>                             VALUES (ORABET.main_seq.NEXTVAL, strategy_true_name, signal_date, round(signal_price,-rnd), signal, TO_CHAR(SYSDATE, 'yyyymmdd hh24:mi:ss'),<br>                             case when (signal='Open Long' or signal='Open Short' or signal='Close Long,Open Short' or signal='Close Short,Open Long' or signal='LongStopCancel' or signal='ShortStopCancel' or signal='LongTakeCancel' or signal='ShortTakeCancel' or signal='Buy' or signal='Sell')  then 0 <br>                             when (signal='SetLongStop' or signal='SetShortStop' or signal='NewLongStop' or signal='NewShortStop' or signal='SetLongTake' or signal='SetShortTake' or signal='NewLongTake' or signal='NewShortTake' ) then 1 else -100 end,-1);<br>                             --при добавлении нового сигнала, отличного от стоп или тейк, устанавливается признак is_worked_cancel=0, при добавлении нового сигнала стоп или тейк устанавливается признак 1 - стоп или тейк активны<br> <br>                         end if;<br>           end;              <br>  <br>  <br>   <br>  end; <br>  <br> END Modeling_Pack;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Pack_{83B07BF2-FBCC-468B-A820-7F4E7333D5B5}" class="item">
+<a name = "Pack_{83B07BF2-FBCC-468B-A820-7F4E7333D5B5}"></a>
+<div class="caption1"><p>ORABET.RESULT_PACK</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Specification</td>
+<td class="tabdata" width="90%"><pre><code>AS<br> /******************************************************************************<br>    NAME:       result_pack<br>    PURPOSE:<br> <br>    REVISIONS:<br>    Ver        Date        Author           Description<br>    ---------  ----------  ---------------  ------------------------------------<br>    1.0        14/05/2020      alex       1. Created this package.<br> ******************************************************************************/<br> <br>  type t_crs is ref cursor;<br>   PROCEDURE getEmitent(partialName in varchar2, result out orabet.result_pack.t_crs);<br>   Procedure getReleaseTail(release_id in integer, result out orabet.result_pack.t_crs);<br> <br> END result_pack;</code></pre></td>
+</tr>
+<tr>
+<td class="tabhead" width="10%">Body Definition</td>
+<td class="tabdata" width="90%"><pre><code>AS<br> /******************************************************************************<br>    NAME:       result_pack<br>    PURPOSE:<br> <br>    REVISIONS:<br>    Ver        Date        Author           Description<br>    ---------  ----------  ---------------  ------------------------------------<br>    1.0        22.07.2007             1. Created this package body.<br> ******************************************************************************/<br> <br> PROCEDURE getEmitent(partialName in varchar2,result out orabet.result_pack.t_crs) is <br>  begin<br>   null;--open result for select * from dimo.kcb_view where lower (ansi_name) like '%'||lower(partialName)||'%';<br>  end;<br> Procedure getReleaseTail(release_id in integer, result out orabet.result_pack.t_crs) is<br>  begin<br>   null;--open result for select * from dimo.releases_tail where release_id=getReleaseTail.release_id order by value_id;<br>  end; <br> <br> END result_pack;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Pack_{7EF51696-31E5-44AF-B683-E67D018F6DC0}" class="item">
+<a name = "Pack_{7EF51696-31E5-44AF-B683-E67D018F6DC0}"></a>
+<div class="caption1"><p>ORABET.SYS_PAR_PACK</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Specification</td>
+<td class="tabdata" width="90%"><pre><code>AS<br> <br> procedure getTEMAParams(strategy_true_name in varchar2, fastTEMA out INTEGER, slowTEMA OUT INTEGER, numperiods OUT INTEGER);<br> PROCEDURE getIsNeedCreation(strategy_true_name IN VARCHAR2, is_need_creation OUT INTEGER);<br> PROCEDURE getCatalinaParams(strategy_true_name IN VARCHAR2, fastDema OUT INTEGER, slowDema OUT INTEGER);<br> END Sys_Par_Pack;</code></pre></td>
+</tr>
+<tr>
+<td class="tabhead" width="10%">Body Definition</td>
+<td class="tabdata" width="90%"><pre><code>AS<br> <br> PROCEDURE getTEMAParams(strategy_true_name IN VARCHAR2, fastTema OUT INTEGER, slowTema OUT INTEGER, numperiods OUT INTEGER) IS<br> s_id INTEGER;<br>  BEGIN<br>   SELECT ID INTO s_id FROM ORABET.PSEUDO_SYSTEM WHERE LOWER(true_name)=LOWER(strategy_true_name);<br>             <br>   SELECT TO_NUMBER(param_value) INTO fastTema FROM ORABET.sys_params WHERE strategy_id=s_id AND LOWER(param_name)=LOWER('fastperiod');<br>              <br>   SELECT TO_NUMBER(param_value) INTO slowTema FROM ORABET.sys_params WHERE strategy_id=s_id AND LOWER(param_name)=LOWER('slowperiod');<br>  -- SELECT TO_NUMBER(param_value) INTO numperiods FROM ORABET.sys_params WHERE strategy_id=s_id AND LOWER(param_name)=LOWER('numperiods');<br> <br>     EXCEPTION<br>         WHEN OTHERS <br>         THEN begin<br>                fastTema := -1;<br>                slowTema := -1;<br>              end;<br>   <br>  END; <br> <br> PROCEDURE getIsNeedCreation(strategy_true_name IN VARCHAR2, is_need_creation OUT INTEGER) IS<br> s_id INTEGER;<br>  BEGIN<br>   SELECT ORABET.pseudo_system.is_need_creation   INTO is_need_creation FROM ORABET.PSEUDO_SYSTEM WHERE LOWER(true_name)=LOWER(strategy_true_name);<br>   --SELECT TO_NUMBER(param_value) INTO is_need_creation FROM ORABET.sys_params WHERE strategy_id=s_id AND LOWER(param_name)=LOWER('is_need_creation');<br>  END;<br>  <br> PROCEDURE getCatalinaParams(strategy_true_name IN VARCHAR2, fastDema OUT INTEGER, slowDema OUT INTEGER) IS<br> s_id INTEGER;<br>  BEGIN<br>   SELECT ID INTO s_id FROM orabet.PSEUDO_SYSTEM WHERE LOWER(true_name)=LOWER(strategy_true_name);<br>   SELECT TO_NUMBER(param_value) INTO fastDema FROM orabet.sys_params WHERE strategy_id=s_id AND LOWER(param_name)=LOWER('fastDema');<br>   SELECT TO_NUMBER(param_value) INTO slowDema FROM orabet.sys_params WHERE strategy_id=s_id AND LOWER(param_name)=LOWER('slowDema');<br>     EXCEPTION<br>         WHEN OTHERS <br>         THEN begin<br>                fastDema := -1;<br>                slowDema := -1;<br>              end;<br> <br> <br>  END;<br> <br>  <br> END Sys_Par_Pack;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Pack_{C0A79FEE-F155-4705-A0D8-FA5AECF0D8BC}" class="item">
+<a name = "Pack_{C0A79FEE-F155-4705-A0D8-FA5AECF0D8BC}"></a>
+<div class="caption1"><p>ORABET.SYSTEM_SERV</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Specification</td>
+<td class="tabdata" width="90%"><pre><code>AS<br> /******************************************************************************<br>    NAME:       SYSTEM_SERV<br>    PURPOSE:<br> <br>    REVISIONS:<br>    Ver        Date        Author           Description<br>    ---------  ----------  ---------------  ------------------------------------<br>    1.0        26.09.2007             1. Created this package.<br> ******************************************************************************/<br>   PROCEDURE addSignal(strategy_id in integer, strategy_name in varchar2,signal in varchar2,num_lots in integer,<br>   price in number, emitent in varchar2,activ_date in date,exec_price_date in date,paper_no in varchar2,treaty in varchar2,direct_date in date);<br>   procedure getEmitentByPaperNo(paper_no in varchar2,emitent out varchar2);<br>   procedure getTickerByPaperNo(paper_no in varchar2,ticker out varchar2);<br>   procedure addStrategy(strategy_name in varchar2,par1 in varchar2,par2 in varchar2,par3 in varchar2,par4 in varchar2,par5 in varchar2,<br>   capital_part in varchar2);<br> <br> END SYSTEM_SERV;</code></pre></td>
+</tr>
+<tr>
+<td class="tabhead" width="10%">Body Definition</td>
+<td class="tabdata" width="90%"><pre><code>AS<br>   <br>   PROCEDURE addSignal(strategy_id IN INTEGER, strategy_name IN VARCHAR2, signal IN VARCHAR2,num_lots IN INTEGER,<br>   price IN NUMBER, emitent IN VARCHAR2, activ_date IN DATE,exec_price_date IN DATE,paper_no IN VARCHAR2,treaty IN VARCHAR2,direct_date IN DATE) IS<br>   sig VARCHAR2(10);<br>    BEGIN<br>     <br>     SELECT signal INTO sig <br>     FROM orabet.SYSTEM_SIGNAL <br>     WHERE strategy_name=addSignal.strategy_name AND ID=  (SELECT MAX(ID) FROM orabet.SYSTEM_SIGNAL WHERE strategy_name=addSignal.strategy_name);<br> 	<br>     IF (sig&lt;&gt;signal) or (sig='') or (sig is null)THEN<br>     INSERT INTO orabet.SYSTEM_SIGNAL(ID,strategy_id,strategy_name,signal,num_lots, price,emitent,signal_date,is_sended,activ_date,is_executed,exec_price_date,paper_no,is_blocked,treaty,direct_date) <br>                              VALUES (orabet.main_seq.NEXTVAL,strategy_id,addSignal.strategy_name,addSignal.signal,addSignal.num_lots,addSignal.price,addSignal.emitent,SYSDATE,0,activ_date,0,addSignal.exec_price_date,addSignal.paper_no,0,treaty,direct_date);<br> 	END IF;<br>     <br>    END;<br>    <br>    <br>   PROCEDURE getEmitentByPaperNo(paper_no IN VARCHAR2, emitent OUT VARCHAR2) IS<br>    BEGIN<br>     SELECT ac.p_name INTO emitent FROM orabet.actives ac, orabet.papers p WHERE ac.p_code=p.p_code AND p.paper_no=<br> 	getEmitentByPaperNo.paper_no;<br>    END; <br>    <br>   PROCEDURE addStrategy(strategy_name IN VARCHAR2,par1 IN VARCHAR2,par2 IN VARCHAR2,par3 IN VARCHAR2,par4 IN VARCHAR2,par5 IN VARCHAR2 ,capital_part IN VARCHAR2) IS<br>    tid INTEGER;<br>    BEGIN   <br>     INSERT INTO orabet.STRATEGY_TYPES(ID,NAME)<br> 	 VALUES (orabet.main_seq.NEXTVAL,strategy_name) RETURNING ID INTO tid;<br> 	COMMIT;<br> 	INSERT INTO orabet.STRATEGY_INIT (ID,par1,par2,par3,par4,par5,capital_part,strategy_id)<br> 	 VALUES (orabet.main_seq.NEXTVAL,par1,par2,par3,par4,par5,capital_part,tid);<br> 	COMMIT;   <br>    END; <br>  <br>  PROCEDURE getTickerByPaperNo(paper_no IN VARCHAR2,ticker OUT VARCHAR2) IS<br>   BEGIN<br>    SELECT p_code INTO ticker FROM orabet.papers WHERE paper_no=getTickerByPaperNo.paper_no; <br>   END;  <br> END System_Serv;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Pack_{79644019-59D9-41C2-8630-8917D9D7C744}" class="item">
+<a name = "Pack_{79644019-59D9-41C2-8630-8917D9D7C744}"></a>
+<div class="caption1"><p>ORABET.TRADE_PACK</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Specification</td>
+<td class="tabdata" width="90%"><pre><code>AS<br>     PROCEDURE  addTradeSignal(strategy_true_name IN VARCHAR2, signal_date IN DATE, signal_price IN NUMBER, signal IN VARCHAR2, signal_price_ready OUT NUMBER);<br> END Trade_Pack;</code></pre></td>
+</tr>
+<tr>
+<td class="tabhead" width="10%">Body Definition</td>
+<td class="tabdata" width="90%"><pre><code>AS<br> <br> PROCEDURE  addTradeSignal(strategy_true_name IN VARCHAR2, signal_date IN DATE, signal_price IN NUMBER, signal IN VARCHAR2, signal_price_ready OUT NUMBER) IS<br>    sg VARCHAR2(10); <br>    is_resolved integer;<br>    rnd integer;<br>    hr integer;<br>    mint integer;<br>    my_price number;<br>    maxid integer;<br>  BEGIN<br> <br>   signal_price_ready := -1;<br>   <br>   SELECT EXTRACT (HOUR FROM SYSTIMESTAMP)+3, EXTRACT (MINUTE FROM SYSTIMESTAMP) into hr, mint from dual;<br>   my_price:=signal_price;<br>   <br>   if ((hr&gt;=18) and (mint&gt;=15) and lower(signal)='buy') then my_price:=signal_price*1.005;<br>   end if;<br>   <br>   if ((hr&gt;=18) and (mint&gt;=15) and lower(signal)='sell') then my_price:=signal_price*0.995;<br>   end if;<br>   <br>   select signal_resolved into is_resolved from ORABET.pseudo_system where true_name=strategy_true_name;<br>   if is_resolved=0 then return; end if;<br>   <br> -- ### never used  <br>   select value into is_resolved from orabet.signal_is_resolved;<br> -- ### <br>   select round into rnd from ORABET.pseudo_system where true_name=strategy_true_name;<br> -- insert into bcs.log (id,value) values (ORABET.main_seq.nextval, 'is_resolved is '||is_resolved||' '||sysdate);<br>   commit;<br>  <br>  if is_resolved=1 <br>  then<br>              --INSERT INTO ORABET.system_signal2_par (ID,strategy_true_name,signal_date,signal_price,signal)<br>              --VALUES (ORABET.main_seq.NEXTVAL,strategy_true_name,signal_date,signal_price,signal);<br>     <br>      <br>     SELECT MAX(ID) into maxid <br>     FROM ORABET.system_signal2 <br>     WHERE strategy_true_name=addTradeSignal.strategy_true_name;<br>     <br>     if not (maxid is null) <br>     then           <br>        SELECT signal INTO sg <br>        FROM ORABET.system_signal2 <br>        WHERE ID = (SELECT MAX(ID) FROM ORABET.system_signal2 WHERE strategy_true_name=addTradeSignal.strategy_true_name);<br>        <br>        IF (LOWER(sg)&lt;&gt;LOWER(signal)) AND (LOWER(signal)&lt;&gt;'hold') AND (TRUNC(signal_date,'dd')=TRUNC(SYSDATE,'dd')) <br>        THEN <br>          INSERT INTO ORABET.SYSTEM_SIGNAL2 (ID, strategy_true_name, signal_date, signal_price, signal,fact_date) <br>          VALUES (ORABET.main_seq.NEXTVAL, strategy_true_name, signal_date, round(my_price,-rnd), signal, TO_CHAR(SYSDATE, 'yyyymmdd hh24:mi:ss'));<br>          UPDATE ORABET.last_signal SET last_signal=signal, last_signal_date=signal_date  WHERE true_name = strategy_true_name;<br>          signal_price_ready :=round(my_price,-rnd);<br>        END IF;<br>     else<br>          INSERT INTO ORABET.SYSTEM_SIGNAL2 (ID, strategy_true_name, signal_date, signal_price, signal,fact_date) <br>          VALUES (ORABET.main_seq.NEXTVAL, strategy_true_name, signal_date, round(my_price,-rnd), signal, TO_CHAR(SYSDATE, 'yyyymmdd hh24:mi:ss'));<br>          UPDATE ORABET.last_signal SET last_signal=signal, last_signal_date=signal_date  WHERE true_name = strategy_true_name; <br>           signal_price_ready :=round(my_price,-rnd);  <br>     end if;   <br>  <br>  IF SQL%NOTFOUND <br>  THEN INSERT INTO ORABET.last_signal (ID, true_name, last_signal, last_signal_date) VALUES (ORABET.main_seq.NEXTVAL, strategy_true_name, signal, signal_date);   <br>  END IF;<br> <br> end if;<br> END;<br>  <br> END Trade_Pack;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+</div><div id="footer"><div class="pageFooter">Copyright &copy; Sitename 2005</div><div class="footerEnd"><p></p></div></div></div></div></body></html>
