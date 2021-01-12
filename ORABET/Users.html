@@ -1,0 +1,3995 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="TDM_Report">
+        <link rel="stylesheet" type="text/css" media="screen" href="anim.css" title="report">
+        <link rel="stylesheet" type="text/css" media="print" href="anim_NoFrames_print.css" title="report">
+            <script src="tdmShowDetails.js" type="text/javascript"></script>
+        <title>Toad Data Modeler - HTML Report</title>
+    </head>
+
+<body onLoad="getUrlItem()"><div class="mainContainer"><div id="headerContainer"><div id="header"><div class="title1"></div><div class="title2">Users</div><div class="reportStats">12 января 2021 г. 12:01:20</div><div class="titleimage"><a href="https://www.quest.com/" target="_blank"><img src="Img/logo.png" alt="Made with Toad Data Modeler" border="0" /></a></div><div class="headerEnd"><p>&nbsp;</p></div></div><div id="navTop"><ul><li><a href="MInfo.html">Model Info</a></li><li><a href="MImage.html">ER Diagram</a></li><li><a href="Tables.html">Entities</a></li><li><a href="Columns.html">Attributes</a></li><li><a href="Indexes.html">Indexes</a></li><li><a href="Keys.html">Keys</a></li><li><a href="Relations.html">Relationships</a></li><li><a href="Triggers.html">Triggers</a></li><li><a href="Packages.html">Packages</a></li><li><a href="Sequences.html">Sequences</a></li><li><a href="Tablespaces.html">Tablespaces</a></li><li><a href="Directories.html">Directories</a></li><li><a href="Editions.html">Editions</a></li><li class="selLi"><a href="Users.html" class="selAnchor">Users</a></li><li><a href="UserGroups.html">User Groups</a></li></ul><div id="navTopEnd"><p>&nbsp;</p></div></div></div><div id="navCombo"><form name="allItems" action=""><select name="listOfItems" onChange="showSelected()"><option value="User_{E3025FA7-2773-4D99-8DA7-9B3D6C31510F}">ANONYMOUS</option><option value="User_{B8E444E2-59D0-4F8C-9AF9-D9230586E0DD}">APEX_030200</option><option value="User_{5A070116-FECD-4199-B6DA-926FCC0F6714}">APEX_PUBLIC_USER</option><option value="User_{E7A48050-417C-4E20-B98D-A2562B3C826E}">APPQOSSYS</option><option value="User_{7CA46CE5-C703-4A34-872F-75732372A2F6}">BI</option><option value="User_{FCF357B0-506F-4360-81C9-76FA4E8689FE}">CTXSYS</option><option value="User_{B56E38FB-860F-4638-92D0-0BF107B7BA27}">DBSNMP</option><option value="User_{351D5F60-5B0C-4DD1-B517-21D71B54E668}">DIMO</option><option value="User_{F9F536A0-E2E4-4EEE-99F5-C6C78646CE71}">DIP</option><option value="User_{578B1942-06D0-44C3-92F7-4A8D429B39B7}">EXFSYS</option><option value="User_{9BAF84AC-B436-4F43-B7A6-9D2BCEAC4731}">FLOWS_FILES</option><option value="User_{F40DF4F0-B2AE-40EB-9CD1-6BB0D18F28A7}">HR</option><option value="User_{7D3C49AA-7E91-4780-ACB1-5A91E5B6A385}">IX</option><option value="User_{8C59BE32-D1A7-4937-846D-8678D5E8A3DF}">MDDATA</option><option value="User_{03AB13B0-29C0-4AD2-8186-9E9705A239C7}">MDSYS</option><option value="User_{E89C8077-CD07-42CB-BBCE-702A213440F0}">MGMT_VIEW</option><option value="User_{7C30823E-FF42-4D8A-8799-48127964132E}">OE</option><option value="User_{A63C334F-6475-4970-8206-20C8AD550013}">OLAPSYS</option><option value="User_{E7FA7AAB-D6FE-48ED-B51F-C0620CE0F607}">ORABET</option><option value="User_{9321FDE8-FD35-4919-9AE8-C676E40CDDFC}">ORACLE_OCM</option><option value="User_{7374E2D6-2349-4889-8158-014EFAFDF1B4}">ORDDATA</option><option value="User_{6460AF91-2145-46E1-BB05-3B27E475DCAA}">ORDPLUGINS</option><option value="User_{EAD2CC8E-3331-4878-ADA7-DA8CB2714BC1}">ORDSYS</option><option value="User_{455B4116-CACC-45FF-A0D2-FEE9EE2484C2}">OUTLN</option><option value="User_{0E53ABAF-1B19-439E-8EDD-F5500064CBD2}">OWBSYS</option><option value="User_{E8336BE5-DA0F-44A2-821C-B31EA9F5A5BA}">OWBSYS_AUDIT</option><option value="User_{040ADE37-7BF5-49CD-B83E-4D66D669FA7D}">PM</option><option value="User_{F8986CA3-B141-4A2C-82F0-52BA9C0A026D}">PUBLIC</option><option value="User_{1B676674-2939-4B80-9022-FFDD3F82DCE4}">QUIK</option><option value="User_{66DE5C0C-8A37-4DAA-88F3-3C19C4C6FE3B}">SCOTT</option><option value="User_{4AD89642-B737-432A-B50A-7CF94F6BC45C}">SH</option><option value="User_{CCDF0D9A-0FFF-4F50-9D82-FFA201420AFD}">SI_INFORMTN_SCHEMA</option><option value="User_{AB1A0FA4-C8C2-4C41-B9BC-42B7548BCA72}">SPATIAL_CSW_ADMIN_USR</option><option value="User_{8D2CFEF0-A881-4045-9D39-5DB50CF69C1D}">SPATIAL_WFS_ADMIN_USR</option><option value="User_{05163CBF-D4C4-44C6-8523-0F8668AECF3D}">SYS</option><option value="User_{FD68865F-58C8-4A08-9425-4654C83ECAD6}">SYSMAN</option><option value="User_{53B9F9EE-492A-4923-B4ED-AD95C5DCF72C}">SYSTEM</option><option value="User_{49576495-D0F6-486A-A88E-ECCDE27DC238}">TEST</option><option value="User_{228B2DFA-FA53-4F2E-83BF-8EFEDD80EC2A}">WMSYS</option><option value="User_{76887F5B-2018-404A-9F56-92834F44E569}">XDB</option><option value="User_{B82B6EE1-0037-4737-9784-F26E8CEB31E1}">XETRADE</option><option value="User_{DFC9069C-BD78-4225-B714-D89A5B404BAA}">XS$NULL</option></select></form><div id="navComboEnd"><p></p></div></div><div id="navLeft"><div id="bookmark"><ul><li><a onClick="return showDetail('User_{E3025FA7-2773-4D99-8DA7-9B3D6C31510F}', this)">ANONYMOUS</a></li><li><a onClick="return showDetail('User_{B8E444E2-59D0-4F8C-9AF9-D9230586E0DD}', this)">APEX_030200</a></li><li><a onClick="return showDetail('User_{5A070116-FECD-4199-B6DA-926FCC0F6714}', this)">APEX_PUBLIC_USER</a></li><li><a onClick="return showDetail('User_{E7A48050-417C-4E20-B98D-A2562B3C826E}', this)">APPQOSSYS</a></li><li><a onClick="return showDetail('User_{7CA46CE5-C703-4A34-872F-75732372A2F6}', this)">BI</a></li><li><a onClick="return showDetail('User_{FCF357B0-506F-4360-81C9-76FA4E8689FE}', this)">CTXSYS</a></li><li><a onClick="return showDetail('User_{B56E38FB-860F-4638-92D0-0BF107B7BA27}', this)">DBSNMP</a></li><li><a onClick="return showDetail('User_{351D5F60-5B0C-4DD1-B517-21D71B54E668}', this)">DIMO</a></li><li><a onClick="return showDetail('User_{F9F536A0-E2E4-4EEE-99F5-C6C78646CE71}', this)">DIP</a></li><li><a onClick="return showDetail('User_{578B1942-06D0-44C3-92F7-4A8D429B39B7}', this)">EXFSYS</a></li><li><a onClick="return showDetail('User_{9BAF84AC-B436-4F43-B7A6-9D2BCEAC4731}', this)">FLOWS_FILES</a></li><li><a onClick="return showDetail('User_{F40DF4F0-B2AE-40EB-9CD1-6BB0D18F28A7}', this)">HR</a></li><li><a onClick="return showDetail('User_{7D3C49AA-7E91-4780-ACB1-5A91E5B6A385}', this)">IX</a></li><li><a onClick="return showDetail('User_{8C59BE32-D1A7-4937-846D-8678D5E8A3DF}', this)">MDDATA</a></li><li><a onClick="return showDetail('User_{03AB13B0-29C0-4AD2-8186-9E9705A239C7}', this)">MDSYS</a></li><li><a onClick="return showDetail('User_{E89C8077-CD07-42CB-BBCE-702A213440F0}', this)">MGMT_VIEW</a></li><li><a onClick="return showDetail('User_{7C30823E-FF42-4D8A-8799-48127964132E}', this)">OE</a></li><li><a onClick="return showDetail('User_{A63C334F-6475-4970-8206-20C8AD550013}', this)">OLAPSYS</a></li><li><a onClick="return showDetail('User_{E7FA7AAB-D6FE-48ED-B51F-C0620CE0F607}', this)">ORABET</a></li><li><a onClick="return showDetail('User_{9321FDE8-FD35-4919-9AE8-C676E40CDDFC}', this)">ORACLE_OCM</a></li><li><a onClick="return showDetail('User_{7374E2D6-2349-4889-8158-014EFAFDF1B4}', this)">ORDDATA</a></li><li><a onClick="return showDetail('User_{6460AF91-2145-46E1-BB05-3B27E475DCAA}', this)">ORDPLUGINS</a></li><li><a onClick="return showDetail('User_{EAD2CC8E-3331-4878-ADA7-DA8CB2714BC1}', this)">ORDSYS</a></li><li><a onClick="return showDetail('User_{455B4116-CACC-45FF-A0D2-FEE9EE2484C2}', this)">OUTLN</a></li><li><a onClick="return showDetail('User_{0E53ABAF-1B19-439E-8EDD-F5500064CBD2}', this)">OWBSYS</a></li><li><a onClick="return showDetail('User_{E8336BE5-DA0F-44A2-821C-B31EA9F5A5BA}', this)">OWBSYS_AUDIT</a></li><li><a onClick="return showDetail('User_{040ADE37-7BF5-49CD-B83E-4D66D669FA7D}', this)">PM</a></li><li><a onClick="return showDetail('User_{F8986CA3-B141-4A2C-82F0-52BA9C0A026D}', this)">PUBLIC</a></li><li><a onClick="return showDetail('User_{1B676674-2939-4B80-9022-FFDD3F82DCE4}', this)">QUIK</a></li><li><a onClick="return showDetail('User_{66DE5C0C-8A37-4DAA-88F3-3C19C4C6FE3B}', this)">SCOTT</a></li><li><a onClick="return showDetail('User_{4AD89642-B737-432A-B50A-7CF94F6BC45C}', this)">SH</a></li><li><a onClick="return showDetail('User_{CCDF0D9A-0FFF-4F50-9D82-FFA201420AFD}', this)">SI_INFORMTN_SCHEMA</a></li><li><a onClick="return showDetail('User_{AB1A0FA4-C8C2-4C41-B9BC-42B7548BCA72}', this)">SPATIAL_CSW_ADMIN_USR</a></li><li><a onClick="return showDetail('User_{8D2CFEF0-A881-4045-9D39-5DB50CF69C1D}', this)">SPATIAL_WFS_ADMIN_USR</a></li><li><a onClick="return showDetail('User_{05163CBF-D4C4-44C6-8523-0F8668AECF3D}', this)">SYS</a></li><li><a onClick="return showDetail('User_{FD68865F-58C8-4A08-9425-4654C83ECAD6}', this)">SYSMAN</a></li><li><a onClick="return showDetail('User_{53B9F9EE-492A-4923-B4ED-AD95C5DCF72C}', this)">SYSTEM</a></li><li><a onClick="return showDetail('User_{49576495-D0F6-486A-A88E-ECCDE27DC238}', this)">TEST</a></li><li><a onClick="return showDetail('User_{228B2DFA-FA53-4F2E-83BF-8EFEDD80EC2A}', this)">WMSYS</a></li><li><a onClick="return showDetail('User_{76887F5B-2018-404A-9F56-92834F44E569}', this)">XDB</a></li><li><a onClick="return showDetail('User_{B82B6EE1-0037-4737-9784-F26E8CEB31E1}', this)">XETRADE</a></li><li><a onClick="return showDetail('User_{DFC9069C-BD78-4225-B714-D89A5B404BAA}', this)">XS$NULL</a></li></ul><div id="bookmarkEnd"><p>&nbsp;</p></div></div></div><div class="separator" ></div><div class="container"><div id="content"><div id="User_{E3025FA7-2773-4D99-8DA7-9B3D6C31510F}" class="item">
+<a name = "User_{E3025FA7-2773-4D99-8DA7-9B3D6C31510F}"></a>
+<div class="caption1"><p>ANONYMOUS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ANONYMOUS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;ANONYMOUS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{B8E444E2-59D0-4F8C-9AF9-D9230586E0DD}" class="item">
+<a name = "User_{B8E444E2-59D0-4F8C-9AF9-D9230586E0DD}"></a>
+<div class="caption1"><p>APEX_030200</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">APEX_030200</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;APEX_030200&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{5A070116-FECD-4199-B6DA-926FCC0F6714}" class="item">
+<a name = "User_{5A070116-FECD-4199-B6DA-926FCC0F6714}"></a>
+<div class="caption1"><p>APEX_PUBLIC_USER</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">APEX_PUBLIC_USER</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;APEX_PUBLIC_USER&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{E7A48050-417C-4E20-B98D-A2562B3C826E}" class="item">
+<a name = "User_{E7A48050-417C-4E20-B98D-A2562B3C826E}"></a>
+<div class="caption1"><p>APPQOSSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">APPQOSSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;APPQOSSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;<br>   QUOTA UNLIMITED ON &quot;SYSAUX&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{7CA46CE5-C703-4A34-872F-75732372A2F6}" class="item">
+<a name = "User_{7CA46CE5-C703-4A34-872F-75732372A2F6}"></a>
+<div class="caption1"><p>BI</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">BI</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;BI&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{FCF357B0-506F-4360-81C9-76FA4E8689FE}" class="item">
+<a name = "User_{FCF357B0-506F-4360-81C9-76FA4E8689FE}"></a>
+<div class="caption1"><p>CTXSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">CTXSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;CTXSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">CTXAPP</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{B56E38FB-860F-4638-92D0-0BF107B7BA27}" class="item">
+<a name = "User_{B56E38FB-860F-4638-92D0-0BF107B7BA27}"></a>
+<div class="caption1"><p>DBSNMP</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">DBSNMP</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;DBSNMP&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;<br>   PROFILE &quot;MONITORING_PROFILE&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_MONITOR</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{351D5F60-5B0C-4DD1-B517-21D71B54E668}" class="item">
+<a name = "User_{351D5F60-5B0C-4DD1-B517-21D71B54E668}"></a>
+<div class="caption1"><p>DIMO</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">DIMO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;DIMO&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">DBA</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Permissions: Entities</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="30%">Entity Name</td>
+<td class="tabhead" width="20%">Grantor</td>
+<td class="tabhead">SELECT</td>
+<td class="tabhead">INSERT</td>
+<td class="tabhead">UPDATE</td>
+<td class="tabhead">DELETE</td>
+<td class="tabhead">REFERENCES</td>
+<td class="tabhead">ALTER</td>
+<td class="tabhead">INDEX</td>
+<td class="tabhead">DEBUG</td>
+<td class="tabhead">FLASHBACK</td>
+<td class="tabhead">ON COMMIT REFRESH</td>
+<td class="tabhead">QUERY REWRITE</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ACTIVES</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERTNEWDATA</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERT_TABLE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_IMPORT</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN1</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN15</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN_15_F</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN5</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN60</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_GA_TUNE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_PAPERS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_PARAMS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_STRATEGY</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_STRATEGY_MODULE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_STRATEGY_MODULE_PARAMS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.LAST_SIGNAL</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.PAPERS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.PSEUDO_SYSTEM</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK</td>
+<td class="tabdata" width="20%">DIMO</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK_LOG</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK_TUNE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SIGNAL_IS_RESOLVED</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SMS_MAILING_LIST</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.STRATEGY_INIT</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.STRATEGY_TYPES</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYS_PARAMS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL2</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL2_PAR</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_USERS_REN_BY_ME</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.TRADECENTERSECTIONS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.VM_ADM_QUOTES_Q</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{F9F536A0-E2E4-4EEE-99F5-C6C78646CE71}" class="item">
+<a name = "User_{F9F536A0-E2E4-4EEE-99F5-C6C78646CE71}"></a>
+<div class="caption1"><p>DIP</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">DIP</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;DIP&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{578B1942-06D0-44C3-92F7-4A8D429B39B7}" class="item">
+<a name = "User_{578B1942-06D0-44C3-92F7-4A8D429B39B7}"></a>
+<div class="caption1"><p>EXFSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">EXFSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;EXFSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{9BAF84AC-B436-4F43-B7A6-9D2BCEAC4731}" class="item">
+<a name = "User_{9BAF84AC-B436-4F43-B7A6-9D2BCEAC4731}"></a>
+<div class="caption1"><p>FLOWS_FILES</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">FLOWS_FILES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;FLOWS_FILES&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;<br>   QUOTA UNLIMITED ON &quot;SYSAUX&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{F40DF4F0-B2AE-40EB-9CD1-6BB0D18F28A7}" class="item">
+<a name = "User_{F40DF4F0-B2AE-40EB-9CD1-6BB0D18F28A7}"></a>
+<div class="caption1"><p>HR</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">HR</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;HR&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{7D3C49AA-7E91-4780-ACB1-5A91E5B6A385}" class="item">
+<a name = "User_{7D3C49AA-7E91-4780-ACB1-5A91E5B6A385}"></a>
+<div class="caption1"><p>IX</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">IX</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;IX&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_USER_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">SELECT_CATALOG_ROLE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{8C59BE32-D1A7-4937-846D-8678D5E8A3DF}" class="item">
+<a name = "User_{8C59BE32-D1A7-4937-846D-8678D5E8A3DF}"></a>
+<div class="caption1"><p>MDDATA</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">MDDATA</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;MDDATA&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{03AB13B0-29C0-4AD2-8186-9E9705A239C7}" class="item">
+<a name = "User_{03AB13B0-29C0-4AD2-8186-9E9705A239C7}"></a>
+<div class="caption1"><p>MDSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">MDSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;MDSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{E89C8077-CD07-42CB-BBCE-702A213440F0}" class="item">
+<a name = "User_{E89C8077-CD07-42CB-BBCE-702A213440F0}"></a>
+<div class="caption1"><p>MGMT_VIEW</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">MGMT_VIEW</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;MGMT_VIEW&quot; IDENTIFIED BY --secret_password--<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSTEM&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">MGMT_USER</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{7C30823E-FF42-4D8A-8799-48127964132E}" class="item">
+<a name = "User_{7C30823E-FF42-4D8A-8799-48127964132E}"></a>
+<div class="caption1"><p>OE</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">OE</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;OE&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">XDBADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{A63C334F-6475-4970-8206-20C8AD550013}" class="item">
+<a name = "User_{A63C334F-6475-4970-8206-20C8AD550013}"></a>
+<div class="caption1"><p>OLAPSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">OLAPSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;OLAPSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;<br>   QUOTA UNLIMITED ON &quot;SYSAUX&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_DBA</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{E7FA7AAB-D6FE-48ED-B51F-C0620CE0F607}" class="item">
+<a name = "User_{E7FA7AAB-D6FE-48ED-B51F-C0620CE0F607}"></a>
+<div class="caption1"><p>ORABET</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ORABET</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;ORABET&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">WFS_USR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES</td>
+</tr>
+<tr>
+<td class="tabdata">EJBCLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">JAVADEBUGPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">LOGSTDBY_ADMINISTRATOR</td>
+</tr>
+<tr>
+<td class="tabdata">DELETE_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">APEX_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OLAPI_TRACE_USER</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_SET_INVOKER</td>
+</tr>
+<tr>
+<td class="tabdata">SCHEDULER_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">DATAPUMP_IMP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DBFS_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">EXP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">MGMT_USER</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_WFS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_USER</td>
+</tr>
+<tr>
+<td class="tabdata">CTXAPP</td>
+</tr>
+<tr>
+<td class="tabdata">SELECT_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DBA</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CSW_USR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAUSERPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_CSW_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_DBA</td>
+</tr>
+<tr>
+<td class="tabdata">ORDADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">XDBADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_MONITOR</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_SELECT_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">RECOVERY_CATALOG_OWNER</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_USER_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">EXECUTE_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB$CLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_XS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES_WITH_PUBLIC</td>
+</tr>
+<tr>
+<td class="tabdata">AUTHENTICATEDUSER</td>
+</tr>
+<tr>
+<td class="tabdata">ADM_PARALLEL_EXECUTE_TASK</td>
+</tr>
+<tr>
+<td class="tabdata">IMP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_USER</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES_OVER_HTTP</td>
+</tr>
+<tr>
+<td class="tabdata">JAVASYSPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAIDPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_EXECUTE_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DATAPUMP_EXP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_DESIGNCENTER_VIEW</td>
+</tr>
+<tr>
+<td class="tabdata">CWM_USER</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_DEPLOY</td>
+</tr>
+<tr>
+<td class="tabdata">JMXSERVER</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_ADVISOR</td>
+</tr>
+<tr>
+<td class="tabdata">GATHER_SYSTEM_STATISTICS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Permissions: Entities</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="30%">Entity Name</td>
+<td class="tabhead" width="20%">Grantor</td>
+<td class="tabhead">SELECT</td>
+<td class="tabhead">INSERT</td>
+<td class="tabhead">UPDATE</td>
+<td class="tabhead">DELETE</td>
+<td class="tabhead">REFERENCES</td>
+<td class="tabhead">ALTER</td>
+<td class="tabhead">INDEX</td>
+<td class="tabhead">DEBUG</td>
+<td class="tabhead">FLASHBACK</td>
+<td class="tabhead">ON COMMIT REFRESH</td>
+<td class="tabhead">QUERY REWRITE</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ACTIVES</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ACTIVES</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ACTIVES</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERTNEWDATA</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERTNEWDATA</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERTNEWDATA</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERT_TABLE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERT_TABLE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ALERT_TABLE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_IMPORT</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_IMPORT</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_IMPORT</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_IMPORT</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN1</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN1</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN1</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN15</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN15</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN15</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN15</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN_15_F</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN_15_F</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN_15_F</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN5</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN5</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN5</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN5</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN60</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN60</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN60</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN60</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_GA_TUNE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_GA_TUNE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_PAPERS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_PAPERS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_PARAMS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_PARAMS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_STRATEGY</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_STRATEGY</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_STRATEGY_MODULE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_STRATEGY_MODULE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_STRATEGY_MODULE_PARAMS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_STRATEGY_MODULE_PARAMS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.LAST_SIGNAL</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.LAST_SIGNAL</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.LAST_SIGNAL</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.LAST_SIGNAL</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.PAPERS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.PAPERS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.PAPERS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.PSEUDO_SYSTEM</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.PSEUDO_SYSTEM</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.PSEUDO_SYSTEM</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.PSEUDO_SYSTEM</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK</td>
+<td class="tabdata" width="20%">DIMO</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+<td class="tabdata"><span class="specificItem">Grant</span></td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK_LOG</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK_LOG</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK_LOG</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK_TUNE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK_TUNE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.QUIK_TUNE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SIGNAL_IS_RESOLVED</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SIGNAL_IS_RESOLVED</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SIGNAL_IS_RESOLVED</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SIGNAL_IS_RESOLVED</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SMS_MAILING_LIST</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SMS_MAILING_LIST</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SMS_MAILING_LIST</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.STRATEGY_INIT</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.STRATEGY_INIT</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.STRATEGY_INIT</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.STRATEGY_TYPES</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.STRATEGY_TYPES</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.STRATEGY_TYPES</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYS_PARAMS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYS_PARAMS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYS_PARAMS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL2</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL2</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL2</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL2</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL2_PAR</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL2_PAR</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL2_PAR</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL2_PAR</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_USERS_REN_BY_ME</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_USERS_REN_BY_ME</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_USERS_REN_BY_ME</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.TRADECENTERSECTIONS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.TRADECENTERSECTIONS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.TRADECENTERSECTIONS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.VM_ADM_QUOTES_Q</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.VM_ADM_QUOTES_Q</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.VM_ADM_QUOTES_Q</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+<td class="tabdata">---</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.VM_ADM_QUOTES_Q</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{9321FDE8-FD35-4919-9AE8-C676E40CDDFC}" class="item">
+<a name = "User_{9321FDE8-FD35-4919-9AE8-C676E40CDDFC}"></a>
+<div class="caption1"><p>ORACLE_OCM</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ORACLE_OCM</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;ORACLE_OCM&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{7374E2D6-2349-4889-8158-014EFAFDF1B4}" class="item">
+<a name = "User_{7374E2D6-2349-4889-8158-014EFAFDF1B4}"></a>
+<div class="caption1"><p>ORDDATA</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ORDDATA</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;ORDDATA&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{6460AF91-2145-46E1-BB05-3B27E475DCAA}" class="item">
+<a name = "User_{6460AF91-2145-46E1-BB05-3B27E475DCAA}"></a>
+<div class="caption1"><p>ORDPLUGINS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ORDPLUGINS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;ORDPLUGINS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{EAD2CC8E-3331-4878-ADA7-DA8CB2714BC1}" class="item">
+<a name = "User_{EAD2CC8E-3331-4878-ADA7-DA8CB2714BC1}"></a>
+<div class="caption1"><p>ORDSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ORDSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;ORDSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAUSERPRIV</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{455B4116-CACC-45FF-A0D2-FEE9EE2484C2}" class="item">
+<a name = "User_{455B4116-CACC-45FF-A0D2-FEE9EE2484C2}"></a>
+<div class="caption1"><p>OUTLN</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">OUTLN</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;OUTLN&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSTEM&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{0E53ABAF-1B19-439E-8EDD-F5500064CBD2}" class="item">
+<a name = "User_{0E53ABAF-1B19-439E-8EDD-F5500064CBD2}"></a>
+<div class="caption1"><p>OWBSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">OWBSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;OWBSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_USER</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAUSERPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_USER_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_USER</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_DESIGNCENTER_VIEW</td>
+</tr>
+<tr>
+<td class="tabdata">OWB$CLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">CWM_USER</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{E8336BE5-DA0F-44A2-821C-B31EA9F5A5BA}" class="item">
+<a name = "User_{E8336BE5-DA0F-44A2-821C-B31EA9F5A5BA}"></a>
+<div class="caption1"><p>OWBSYS_AUDIT</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">OWBSYS_AUDIT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;OWBSYS_AUDIT&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{040ADE37-7BF5-49CD-B83E-4D66D669FA7D}" class="item">
+<a name = "User_{040ADE37-7BF5-49CD-B83E-4D66D669FA7D}"></a>
+<div class="caption1"><p>PM</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">PM</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;PM&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{F8986CA3-B141-4A2C-82F0-52BA9C0A026D}" class="item">
+<a name = "User_{F8986CA3-B141-4A2C-82F0-52BA9C0A026D}"></a>
+<div class="caption1"><p>PUBLIC</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">PUBLIC</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{1B676674-2939-4B80-9022-FFDD3F82DCE4}" class="item">
+<a name = "User_{1B676674-2939-4B80-9022-FFDD3F82DCE4}"></a>
+<div class="caption1"><p>QUIK</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">QUIK</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;QUIK&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Permissions: Entities</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="30%">Entity Name</td>
+<td class="tabhead" width="20%">Grantor</td>
+<td class="tabhead">SELECT</td>
+<td class="tabhead">INSERT</td>
+<td class="tabhead">UPDATE</td>
+<td class="tabhead">DELETE</td>
+<td class="tabhead">REFERENCES</td>
+<td class="tabhead">ALTER</td>
+<td class="tabhead">INDEX</td>
+<td class="tabhead">DEBUG</td>
+<td class="tabhead">FLASHBACK</td>
+<td class="tabhead">ON COMMIT REFRESH</td>
+<td class="tabhead">QUERY REWRITE</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.VM_ADM_QUOTES_Q</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{66DE5C0C-8A37-4DAA-88F3-3C19C4C6FE3B}" class="item">
+<a name = "User_{66DE5C0C-8A37-4DAA-88F3-3C19C4C6FE3B}"></a>
+<div class="caption1"><p>SCOTT</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SCOTT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SCOTT&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{4AD89642-B737-432A-B50A-7CF94F6BC45C}" class="item">
+<a name = "User_{4AD89642-B737-432A-B50A-7CF94F6BC45C}"></a>
+<div class="caption1"><p>SH</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SH</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SH&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">SELECT_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">CWM_USER</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{CCDF0D9A-0FFF-4F50-9D82-FFA201420AFD}" class="item">
+<a name = "User_{CCDF0D9A-0FFF-4F50-9D82-FFA201420AFD}"></a>
+<div class="caption1"><p>SI_INFORMTN_SCHEMA</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SI_INFORMTN_SCHEMA</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SI_INFORMTN_SCHEMA&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{AB1A0FA4-C8C2-4C41-B9BC-42B7548BCA72}" class="item">
+<a name = "User_{AB1A0FA4-C8C2-4C41-B9BC-42B7548BCA72}"></a>
+<div class="caption1"><p>SPATIAL_CSW_ADMIN_USR</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SPATIAL_CSW_ADMIN_USR</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SPATIAL_CSW_ADMIN_USR&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_CSW_ADMIN</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{8D2CFEF0-A881-4045-9D39-5DB50CF69C1D}" class="item">
+<a name = "User_{8D2CFEF0-A881-4045-9D39-5DB50CF69C1D}"></a>
+<div class="caption1"><p>SPATIAL_WFS_ADMIN_USR</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SPATIAL_WFS_ADMIN_USR</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SPATIAL_WFS_ADMIN_USR&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_WFS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{05163CBF-D4C4-44C6-8523-0F8668AECF3D}" class="item">
+<a name = "User_{05163CBF-D4C4-44C6-8523-0F8668AECF3D}"></a>
+<div class="caption1"><p>SYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SYS&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;SYSTEM&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_SET_INVOKER</td>
+</tr>
+<tr>
+<td class="tabdata">XDBADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">JMXSERVER</td>
+</tr>
+<tr>
+<td class="tabdata">IMP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">APEX_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">JAVADEBUGPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAIDPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">RECOVERY_CATALOG_OWNER</td>
+</tr>
+<tr>
+<td class="tabdata">DELETE_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">CSW_USR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_XS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">DBA</td>
+</tr>
+<tr>
+<td class="tabdata">WFS_USR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES_OVER_HTTP</td>
+</tr>
+<tr>
+<td class="tabdata">AUTHENTICATEDUSER</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAUSERPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">ADM_PARALLEL_EXECUTE_TASK</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_DESIGNCENTER_VIEW</td>
+</tr>
+<tr>
+<td class="tabdata">CWM_USER</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_DBA</td>
+</tr>
+<tr>
+<td class="tabdata">ORDADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_SELECT_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DATAPUMP_IMP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">EXP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB$CLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">MGMT_USER</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_CSW_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">CTXAPP</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_MONITOR</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_EXECUTE_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DATAPUMP_EXP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DBFS_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_WFS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_USER</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_DEPLOY</td>
+</tr>
+<tr>
+<td class="tabdata">EJBCLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">JAVASYSPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">SCHEDULER_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_USER_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">LOGSTDBY_ADMINISTRATOR</td>
+</tr>
+<tr>
+<td class="tabdata">EXECUTE_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_USER</td>
+</tr>
+<tr>
+<td class="tabdata">OLAPI_TRACE_USER</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES_WITH_PUBLIC</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_ADVISOR</td>
+</tr>
+<tr>
+<td class="tabdata">GATHER_SYSTEM_STATISTICS</td>
+</tr>
+<tr>
+<td class="tabdata">SELECT_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{FD68865F-58C8-4A08-9425-4654C83ECAD6}" class="item">
+<a name = "User_{FD68865F-58C8-4A08-9425-4654C83ECAD6}"></a>
+<div class="caption1"><p>SYSMAN</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SYSMAN</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SYSMAN&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;<br>   QUOTA UNLIMITED ON &quot;SYSAUX&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">MGMT_USER</td>
+</tr>
+<tr>
+<td class="tabdata">SELECT_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{53B9F9EE-492A-4923-B4ED-AD95C5DCF72C}" class="item">
+<a name = "User_{53B9F9EE-492A-4923-B4ED-AD95C5DCF72C}"></a>
+<div class="caption1"><p>SYSTEM</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SYSTEM</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;SYSTEM&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;SYSTEM&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">MGMT_USER</td>
+</tr>
+<tr>
+<td class="tabdata">DBA</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{49576495-D0F6-486A-A88E-ECCDE27DC238}" class="item">
+<a name = "User_{49576495-D0F6-486A-A88E-ECCDE27DC238}"></a>
+<div class="caption1"><p>TEST</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">TEST</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;TEST&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">DBA</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{228B2DFA-FA53-4F2E-83BF-8EFEDD80EC2A}" class="item">
+<a name = "User_{228B2DFA-FA53-4F2E-83BF-8EFEDD80EC2A}"></a>
+<div class="caption1"><p>WMSYS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">WMSYS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;WMSYS&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">WM_ADMIN_ROLE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{76887F5B-2018-404A-9F56-92834F44E569}" class="item">
+<a name = "User_{76887F5B-2018-404A-9F56-92834F44E569}"></a>
+<div class="caption1"><p>XDB</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">XDB</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;XDB&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;SYSAUX&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CTXAPP</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAUSERPRIV</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{B82B6EE1-0037-4737-9784-F26E8CEB31E1}" class="item">
+<a name = "User_{B82B6EE1-0037-4737-9784-F26E8CEB31E1}"></a>
+<div class="caption1"><p>XETRADE</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">XETRADE</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;XETRADE&quot; IDENTIFIED BY --secret_password--<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Membership</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">User Group Name</td>
+</tr>
+<tr>
+<td class="tabdata">APEX_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_USER</td>
+</tr>
+<tr>
+<td class="tabdata">XDBADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">CTXAPP</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_DEPLOY</td>
+</tr>
+<tr>
+<td class="tabdata">ADM_PARALLEL_EXECUTE_TASK</td>
+</tr>
+<tr>
+<td class="tabdata">OLAPI_TRACE_USER</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES</td>
+</tr>
+<tr>
+<td class="tabdata">EJBCLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_USER_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DBFS_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">EXECUTE_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_DESIGNCENTER_VIEW</td>
+</tr>
+<tr>
+<td class="tabdata">OWB$CLIENT</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_WFS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">JMXSERVER</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_EXECUTE_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">EXP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">MGMT_USER</td>
+</tr>
+<tr>
+<td class="tabdata">CSW_USR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_DBA</td>
+</tr>
+<tr>
+<td class="tabdata">JAVA_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">HS_ADMIN_SELECT_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">DATAPUMP_IMP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">OWB_USER</td>
+</tr>
+<tr>
+<td class="tabdata">OLAP_XS_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES_OVER_HTTP</td>
+</tr>
+<tr>
+<td class="tabdata">AUTHENTICATEDUSER</td>
+</tr>
+<tr>
+<td class="tabdata">DELETE_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">SELECT_CATALOG_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">RESOURCE</td>
+</tr>
+<tr>
+<td class="tabdata">CONNECT</td>
+</tr>
+<tr>
+<td class="tabdata">SPATIAL_CSW_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">CWM_USER</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_MONITOR</td>
+</tr>
+<tr>
+<td class="tabdata">OEM_ADVISOR</td>
+</tr>
+<tr>
+<td class="tabdata">GATHER_SYSTEM_STATISTICS</td>
+</tr>
+<tr>
+<td class="tabdata">DATAPUMP_EXP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">WFS_USR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_WEBSERVICES_WITH_PUBLIC</td>
+</tr>
+<tr>
+<td class="tabdata">JAVADEBUGPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">JAVASYSPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAIDPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">JAVAUSERPRIV</td>
+</tr>
+<tr>
+<td class="tabdata">SCHEDULER_ADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">AQ_ADMINISTRATOR_ROLE</td>
+</tr>
+<tr>
+<td class="tabdata">LOGSTDBY_ADMINISTRATOR</td>
+</tr>
+<tr>
+<td class="tabdata">ORDADMIN</td>
+</tr>
+<tr>
+<td class="tabdata">XDB_SET_INVOKER</td>
+</tr>
+<tr>
+<td class="tabdata">RECOVERY_CATALOG_OWNER</td>
+</tr>
+<tr>
+<td class="tabdata">IMP_FULL_DATABASE</td>
+</tr>
+<tr>
+<td class="tabdata">DBA</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Permissions: Entities</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="30%">Entity Name</td>
+<td class="tabhead" width="20%">Grantor</td>
+<td class="tabhead">SELECT</td>
+<td class="tabhead">INSERT</td>
+<td class="tabhead">UPDATE</td>
+<td class="tabhead">DELETE</td>
+<td class="tabhead">REFERENCES</td>
+<td class="tabhead">ALTER</td>
+<td class="tabhead">INDEX</td>
+<td class="tabhead">DEBUG</td>
+<td class="tabhead">FLASHBACK</td>
+<td class="tabhead">ON COMMIT REFRESH</td>
+<td class="tabhead">QUERY REWRITE</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_IMPORT</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN15</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN5</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.ARCH_MIN60</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_GA_TUNE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_PAPERS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_PARAMS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_STRATEGY</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_STRATEGY_MODULE</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.BT_STRATEGY_MODULE_PARAMS</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.LAST_SIGNAL</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.PSEUDO_SYSTEM</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SIGNAL_IS_RESOLVED</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL2</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+<tr>
+<td class="tabdata" width="30%">ORABET.SYSTEM_SIGNAL2_PAR</td>
+<td class="tabdata" width="20%">ORABET</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+<td class="tabdata">Grant</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="User_{DFC9069C-BD78-4225-B714-D89A5B404BAA}" class="item">
+<a name = "User_{DFC9069C-BD78-4225-B714-D89A5B404BAA}"></a>
+<div class="caption1"><p>XS$NULL</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">XS$NULL</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>SQL</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead"><pre><code>CREATE USER &quot;XS$NULL&quot; IDENTIFIED BY --secret_password--<br>   PASSWORD EXPIRE<br>   ACCOUNT LOCK<br>   DEFAULT TABLESPACE &quot;USERS&quot;<br>   TEMPORARY TABLESPACE &quot;TEMP&quot;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+</div><div id="footer"><div class="pageFooter">Copyright &copy; Sitename 2005</div><div class="footerEnd"><p></p></div></div></div></div></body></html>

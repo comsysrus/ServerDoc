@@ -1,0 +1,781 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="TDM_Report">
+        <link rel="stylesheet" type="text/css" media="screen" href="anim.css" title="report">
+        <link rel="stylesheet" type="text/css" media="print" href="anim_NoFrames_print.css" title="report">
+            <script src="tdmShowDetails.js" type="text/javascript"></script>
+        <title>Toad Data Modeler - HTML Report</title>
+    </head>
+
+<body onLoad="getUrlItem()"><div class="mainContainer"><div id="headerContainer"><div id="header"><div class="title1"></div><div class="title2">Triggers</div><div class="reportStats">12 января 2021 г. 20:53:10</div><div class="titleimage"><a href="https://www.quest.com/" target="_blank"><img src="Img/logo.png" alt="Made with Toad Data Modeler" border="0" /></a></div><div class="headerEnd"><p>&nbsp;</p></div></div><div id="navTop"><ul><li><a href="MInfo.html">Model Info</a></li><li><a href="MImage.html">ER Diagram</a></li><li><a href="Tables.html">Entities</a></li><li><a href="Columns.html">Attributes</a></li><li><a href="Indexes.html">Indexes</a></li><li><a href="Keys.html">Keys</a></li><li><a href="Relations.html">Relationships</a></li><li class="selLi"><a href="Triggers.html" class="selAnchor">Triggers</a></li><li><a href="Packages.html">Packages</a></li><li><a href="Sequences.html">Sequences</a></li></ul><div id="navTopEnd"><p>&nbsp;</p></div></div></div><div id="navCombo"><form name="allItems" action=""><select name="listOfItems" onChange="showSelected()"><option>------------</option><option value="Trigger_TABLES">Entities</option><option value="Trigger_{E249B768-800A-44D0-9207-944A1186AC68}">ORABET.TRG_ALERTNEWDATA_NEW_ID (ORABET.ALERTNEWDATA)</option><option>------------</option><option value="Trigger_{F189B700-07AA-4298-891D-953633F080AE}">ORABET.TRG_INSERT_NEWDATA_TO_ALERT (ORABET.ARCH_MIN15)</option><option>------------</option><option value="Trigger_{C54209A7-A1BB-4644-96E3-ACCE3F45C55B}">ORABET.ARCH_MIN15_2_TRG (ORABET.ARCH_MIN15_2)</option><option>------------</option><option value="Trigger_{1AE0D912-5BAC-4E18-A0E7-436CA928036A}">ORABET.BT_GA_TUNE_TRG (ORABET.BT_GA_TUNE)</option><option>------------</option><option value="Trigger_{74E9F99A-ED3D-4391-AB8F-6B1A54D5C370}">ORABET.BT_PAPERS_TRG (ORABET.BT_PAPERS)</option><option>------------</option><option value="Trigger_{83FB5FB3-577C-4D26-8575-EE8940BBB806}">ORABET.BT_PARAMS_TRG (ORABET.BT_PARAMS)</option><option>------------</option><option value="Trigger_{A12033D8-B469-4AB6-A552-557FCF98DD1C}">ORABET.BT_STRATEGY_TRG (ORABET.BT_STRATEGY)</option><option>------------</option><option value="Trigger_{6D7763A6-9457-4082-B23F-9C991190847E}">ORABET.BT_STRATEGY_MODULE_TRG (ORABET.BT_STRATEGY_MODULE)</option><option>------------</option><option value="Trigger_{5763E50B-D7F8-4BEE-8DDA-C70637C14003}">ORABET.BT_STRATEGY_MODULE_PARAMS_TRG (ORABET.BT_STRATEGY_MODULE_PARAMS)</option><option>------------</option><option value="Trigger_{35027905-BF43-4DA3-8F05-4BDAE7D0BCF1}">ORABET.PSEUDO_SYSTEM_TRG (ORABET.PSEUDO_SYSTEM)</option><option>------------</option><option value="Trigger_{B7E5F441-13E0-4071-822D-8C84BB458635}">ORABET.QUIK_TRG_NEW (ORABET.QUIK_LOG)</option><option>------------</option><option value="Trigger_{A97A5C5B-9378-414D-9226-0E2F87C1CD35}">ORABET.SYS_PARAMS_TRG (ORABET.SYS_PARAMS)</option><option>------------</option><option value="Trigger_{9238AC7D-30F8-43DD-8C2B-112C54CBCBA8}">ORABET.TRG_INSERT_INTO_QUIKTABLE (ORABET.VM_ADM_QUOTES_Q)</option><option value="Trigger_{E54BD7AD-C8D1-46D4-B6E3-93D8A6057B5B}">ORABET.TRGAFTERUPATE (ORABET.VM_ADM_QUOTES_Q)</option><option value="Trigger_{83D28303-DEF0-49AB-96DA-BDB9027B0E44}">ORABET.TRGQUIKNEWDATA (ORABET.VM_ADM_QUOTES_Q)</option><option>------------</option><option value="Trigger_VIEWS">Views</option></select></form><div id="navComboEnd"><p></p></div></div><div id="navLeft"><div id="bookmark"><ul><li class="spacerGap"></li><li class="liBookmarkHeader"><span class="bookmarkHeader">Entities</span></li><li><a onClick="return showDetail('Trigger_{E249B768-800A-44D0-9207-944A1186AC68}', this)">ORABET.TRG_ALERTNEWDATA_NEW_ID (ORABET.ALERTNEWDATA)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Trigger_{F189B700-07AA-4298-891D-953633F080AE}', this)">ORABET.TRG_INSERT_NEWDATA_TO_ALERT (ORABET.ARCH_MIN15)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Trigger_{C54209A7-A1BB-4644-96E3-ACCE3F45C55B}', this)">ORABET.ARCH_MIN15_2_TRG (ORABET.ARCH_MIN15_2)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Trigger_{1AE0D912-5BAC-4E18-A0E7-436CA928036A}', this)">ORABET.BT_GA_TUNE_TRG (ORABET.BT_GA_TUNE)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Trigger_{74E9F99A-ED3D-4391-AB8F-6B1A54D5C370}', this)">ORABET.BT_PAPERS_TRG (ORABET.BT_PAPERS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Trigger_{83FB5FB3-577C-4D26-8575-EE8940BBB806}', this)">ORABET.BT_PARAMS_TRG (ORABET.BT_PARAMS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Trigger_{A12033D8-B469-4AB6-A552-557FCF98DD1C}', this)">ORABET.BT_STRATEGY_TRG (ORABET.BT_STRATEGY)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Trigger_{6D7763A6-9457-4082-B23F-9C991190847E}', this)">ORABET.BT_STRATEGY_MODULE_TRG (ORABET.BT_STRATEGY_MODULE)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Trigger_{5763E50B-D7F8-4BEE-8DDA-C70637C14003}', this)">ORABET.BT_STRATEGY_MODULE_PARAMS_TRG (ORABET.BT_STRATEGY_MODULE_PARAMS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Trigger_{35027905-BF43-4DA3-8F05-4BDAE7D0BCF1}', this)">ORABET.PSEUDO_SYSTEM_TRG (ORABET.PSEUDO_SYSTEM)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Trigger_{B7E5F441-13E0-4071-822D-8C84BB458635}', this)">ORABET.QUIK_TRG_NEW (ORABET.QUIK_LOG)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Trigger_{A97A5C5B-9378-414D-9226-0E2F87C1CD35}', this)">ORABET.SYS_PARAMS_TRG (ORABET.SYS_PARAMS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Trigger_{9238AC7D-30F8-43DD-8C2B-112C54CBCBA8}', this)">ORABET.TRG_INSERT_INTO_QUIKTABLE (ORABET.VM_ADM_QUOTES_Q)</a></li><li><a onClick="return showDetail('Trigger_{E54BD7AD-C8D1-46D4-B6E3-93D8A6057B5B}', this)">ORABET.TRGAFTERUPATE (ORABET.VM_ADM_QUOTES_Q)</a></li><li><a onClick="return showDetail('Trigger_{83D28303-DEF0-49AB-96DA-BDB9027B0E44}', this)">ORABET.TRGQUIKNEWDATA (ORABET.VM_ADM_QUOTES_Q)</a></li><li class="spacerGap"></li><li class="liBookmarkHeader"><span class="bookmarkHeader">Views</span></li></ul><div id="bookmarkEnd"><p>&nbsp;</p></div></div></div><div class="separator" ></div><div class="container"><div id="content"><a name = "Trigger_TABLES"></a>
+<div id="Trigger_{E249B768-800A-44D0-9207-944A1186AC68}" class="item">
+<a name = "Trigger_{E249B768-800A-44D0-9207-944A1186AC68}"></a>
+<div class="caption1"><p>ORABET.ALERTNEWDATA -> ORABET.TRG_ALERTNEWDATA_NEW_ID</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">TRG_ALERTNEWDATA_NEW_ID</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.ALERTNEWDATA</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>BEGIN<br>   :new.ID := SEQ_ALERTNEWDATA.nextval;<br> END TRG_ALERTNEWDATA_NEW_ID;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">BEFORE</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{F189B700-07AA-4298-891D-953633F080AE}" class="item">
+<a name = "Trigger_{F189B700-07AA-4298-891D-953633F080AE}"></a>
+<div class="caption1"><p>ORABET.ARCH_MIN15 -> ORABET.TRG_INSERT_NEWDATA_TO_ALERT</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">TRG_INSERT_NEWDATA_TO_ALERT</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.ARCH_MIN15</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>DECLARE<br> sig VARCHAR2(200);<br> <br> BEGIN<br>    <br>    IF INSERTING THEN<br>    sig:='operation='||'insert;'||'date='||TO_CHAR(:NEW.time,'dd.mm.yyyy hh24:mi:ss')||';open='||:NEW.OPEN||';high='||:NEW.high||';low='||:NEW.low||';close='||:NEW.CLOSE||';paper_no='||:NEW.paper_no||';time_frame=min15';<br>  <br>  --    sig:='|'||'insert|'||TO_CHAR(:NEW.time,'dd.mm.yyyy hh24:mi:ss')||'|'||:NEW.OPEN||'|'||:NEW.high||'|'||:NEW.low||'|'||:NEW.CLOSE||'|'||:NEW.paper_no||'|min15';<br>      INSERT INTO orabet.ALERT_TABLE (ID,paper_no,ttime,time_frame,message) VALUES  (orabet.main_seq.NEXTVAL,:NEW.paper_no,:NEW.time,15,sig);      <br>    END IF;<br>       <br>    -- for info operators<br>    IF UPDATING THEN<br>      null;<br>      sig:='0|'||'update|'||TO_CHAR(:NEW.time,'dd.mm.yyyy hh24:mi:ss')||'|'||:NEW.OPEN||'|'||:NEW.high||'|'||:NEW.low||'|'||:NEW.CLOSE||'|'||:NEW.paper_no||'|min15';<br>    --  sys.DBMS_ALERT.SIGNAL('MDIListener',sig);<br>      <br>    END IF;<br>    <br>    <br>    <br> END ARCH_MIN15_ALERT_TRIGGER;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">AFTER</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Delete, Insert, Update</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Enabled</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{C54209A7-A1BB-4644-96E3-ACCE3F45C55B}" class="item">
+<a name = "Trigger_{C54209A7-A1BB-4644-96E3-ACCE3F45C55B}"></a>
+<div class="caption1"><p>ORABET.ARCH_MIN15_2 -> ORABET.ARCH_MIN15_2_TRG</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ARCH_MIN15_2_TRG</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.ARCH_MIN15_2</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>BEGIN<br> -- For Toad:  Highlight column ID<br>   :new.ID := ORABET.ARCH_MIN15_2_SEQ.nextval;<br> END ARCH_MIN15_2_TRG;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">BEFORE</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{1AE0D912-5BAC-4E18-A0E7-436CA928036A}" class="item">
+<a name = "Trigger_{1AE0D912-5BAC-4E18-A0E7-436CA928036A}"></a>
+<div class="caption1"><p>ORABET.BT_GA_TUNE -> ORABET.BT_GA_TUNE_TRG</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BT_GA_TUNE_TRG</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.BT_GA_TUNE</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>BEGIN<br> -- For Toad:  Highlight column ID<br>   :new.ID := ORABET.BT_GA_TUNE_SEQ.nextval;<br> END BT_GA_TUNE_TRG;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">BEFORE</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{74E9F99A-ED3D-4391-AB8F-6B1A54D5C370}" class="item">
+<a name = "Trigger_{74E9F99A-ED3D-4391-AB8F-6B1A54D5C370}"></a>
+<div class="caption1"><p>ORABET.BT_PAPERS -> ORABET.BT_PAPERS_TRG</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BT_PAPERS_TRG</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.BT_PAPERS</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>BEGIN<br> -- For Toad:  Highlight column PAPER_NO<br>   :new.PAPER_NO := ORABET.BT_PAPERS_SEQ.nextval;<br> END BT_PAPERS_TRG;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">BEFORE</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Enabled</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{83FB5FB3-577C-4D26-8575-EE8940BBB806}" class="item">
+<a name = "Trigger_{83FB5FB3-577C-4D26-8575-EE8940BBB806}"></a>
+<div class="caption1"><p>ORABET.BT_PARAMS -> ORABET.BT_PARAMS_TRG</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BT_PARAMS_TRG</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.BT_PARAMS</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>BEGIN<br> -- For Toad:  Highlight column ID<br>   :new.ID := ORABET.BT_PARAMS_SEQ.nextval;<br> END BT_PARAMS_TRG;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">BEFORE</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Enabled</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{A12033D8-B469-4AB6-A552-557FCF98DD1C}" class="item">
+<a name = "Trigger_{A12033D8-B469-4AB6-A552-557FCF98DD1C}"></a>
+<div class="caption1"><p>ORABET.BT_STRATEGY -> ORABET.BT_STRATEGY_TRG</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BT_STRATEGY_TRG</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.BT_STRATEGY</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>BEGIN<br> -- For Toad:  Highlight column ID<br>   :new.ID := ORABET.BT_STRATEGY_SEQ.nextval;<br> END BT_STRATEGY_TRG;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">BEFORE</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Enabled</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{6D7763A6-9457-4082-B23F-9C991190847E}" class="item">
+<a name = "Trigger_{6D7763A6-9457-4082-B23F-9C991190847E}"></a>
+<div class="caption1"><p>ORABET.BT_STRATEGY_MODULE -> ORABET.BT_STRATEGY_MODULE_TRG</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BT_STRATEGY_MODULE_TRG</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.BT_STRATEGY_MODULE</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>BEGIN<br> -- For Toad:  Highlight column ID<br>   :new.ID := ORABET.BT_STRATEGY_MODULE_SEQ.nextval;<br> END BT_STRATEGY_MODULE_TRG;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">BEFORE</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{5763E50B-D7F8-4BEE-8DDA-C70637C14003}" class="item">
+<a name = "Trigger_{5763E50B-D7F8-4BEE-8DDA-C70637C14003}"></a>
+<div class="caption1"><p>ORABET.BT_STRATEGY_MODULE_PARAMS -> ORABET.BT_STRATEGY_MODULE_PARAMS_TRG</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BT_STRATEGY_MODULE_PARAMS_TRG</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.BT_STRATEGY_MODULE_PARAMS</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>BEGIN<br> -- For Toad:  Highlight column ID<br>   :new.ID := ORABET.BT_STRATEGY_MODULE_PARAMS_SEQ.nextval;<br> END BT_STRATEGY_MODULE_PARAMS_TRG;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">BEFORE</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{35027905-BF43-4DA3-8F05-4BDAE7D0BCF1}" class="item">
+<a name = "Trigger_{35027905-BF43-4DA3-8F05-4BDAE7D0BCF1}"></a>
+<div class="caption1"><p>ORABET.PSEUDO_SYSTEM -> ORABET.PSEUDO_SYSTEM_TRG</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">PSEUDO_SYSTEM_TRG</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.PSEUDO_SYSTEM</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>BEGIN<br> -- For Toad:  Highlight column ID<br>   :new.ID := ORABET.PSEUDO_SYSTEM_SEQ.nextval;<br> END PSEUDO_SYSTEM_TRG;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">BEFORE</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Enabled</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{B7E5F441-13E0-4071-822D-8C84BB458635}" class="item">
+<a name = "Trigger_{B7E5F441-13E0-4071-822D-8C84BB458635}"></a>
+<div class="caption1"><p>ORABET.QUIK_LOG -> ORABET.QUIK_TRG_NEW</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">QUIK_TRG_NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.QUIK_LOG</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>BEGIN<br>  :new.ID :=  ORABET.QUIK_LOG_NEW_DATA.nextval;<br>  :NEW.DT := SYSDATE;<br> END;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">BEFORE</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{A97A5C5B-9378-414D-9226-0E2F87C1CD35}" class="item">
+<a name = "Trigger_{A97A5C5B-9378-414D-9226-0E2F87C1CD35}"></a>
+<div class="caption1"><p>ORABET.SYS_PARAMS -> ORABET.SYS_PARAMS_TRG</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYS_PARAMS_TRG</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.SYS_PARAMS</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>BEGIN<br> -- For Toad:  Highlight column ID<br>   :new.ID := ORABET.SYS_PARAMS_SEQ.nextval;<br> END SYS_PARAMS_TRG;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">BEFORE</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{9238AC7D-30F8-43DD-8C2B-112C54CBCBA8}" class="item">
+<a name = "Trigger_{9238AC7D-30F8-43DD-8C2B-112C54CBCBA8}"></a>
+<div class="caption1"><p>ORABET.VM_ADM_QUOTES_Q -> ORABET.TRG_INSERT_INTO_QUIKTABLE</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">TRG_INSERT_INTO_QUIKTABLE</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.VM_ADM_QUOTES_Q</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>DECLARE<br> p_ticker varchar2(200);<br> p_paper varchar2(200);<br> p_volume number;<br> BEGIN<br> <br>    IF UPDATING and (:NEW.CLASS_CODE='TQBR')<br>    THEN<br>     <br>        --p_ticker :=null;<br>        if :NEW.TICKER = 'SBER' <br>        THEN  <br>          p_ticker :='SBER3';         <br>        else <br>          p_ticker :=:NEW.TICKER; <br>        end if;<br>        if not (p_ticker is null) <br>        then <br>           begin         <br>            insert into orabet.quik (orabet.quik.TICKER, orabet.quik.PROC, orabet.quik.LAST_PRICE, orabet.quik.CLOSE_PRICE, orabet.quik.CLASS_CODE, orabet.quik.I_LAST_UPDATE, orabet.quik.INSTR, orabet.quik.QUANTITY, orabet.quik.DT, orabet.quik.LAST_VOLUME)<br>            values (:NEW.TICKER, :NEW.PROC, :NEW.LAST_PRICE, :NEW.CLOSE_PRICE, :NEW.CLASS_CODE, :NEW.I_LAST_UPDATE, :NEW.INSTR, :NEW.QUANTITY, to_timestamp( to_char(trunc(sysdate), 'DD-MM-YYYY')||:NEW.I_LAST_UPDATE, 'DD-MM-YYYY HH24:MI:SS'), :NEW.LAST_VOLUME);<br>            exception <br>            when others then  ORABET.ALFADIRECT_PACK.SEND_LOG_WHO('ORABET.QUIK_LOG','TRG_INSERT_INTO_QUIKTABLE','CAN NOT INSERT NEW DATA INTO QUIK '||:NEW.TICKER||' '||:NEW.I_LAST_UPDATE, 'ERROR');<br>           end;   <br>        end if;   <br> <br>    end if;    <br> END TRG_INSERT_INTO_QUIKTABLE;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">AFTER</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert, Update</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{E54BD7AD-C8D1-46D4-B6E3-93D8A6057B5B}" class="item">
+<a name = "Trigger_{E54BD7AD-C8D1-46D4-B6E3-93D8A6057B5B}"></a>
+<div class="caption1"><p>ORABET.VM_ADM_QUOTES_Q -> ORABET.TRGAFTERUPATE</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">TRGAFTERUPATE</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.VM_ADM_QUOTES_Q</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>DECLARE<br> -- PRAGMA AUTONOMOUS_TRANSACTION;<br> tmpVar NUMBER;<br> tmpDate DATE;<br> tmpOpen NUMBER;<br> tmpHigh NUMBER;<br> tmpLow  NUMBER;<br> tmpClose NUMBER;<br> oldTime date;<br> newTime date;<br> minutes_new int;<br> minutes_old int;  <br> sig VARCHAR2(200);<br> p_ticker varchar2(200);<br> p_paper varchar2(200);<br> BEGIN<br>    --if updating then tmpVar:=1;<br>    IF UPDATING THEN<br>    newTime:=to_date(to_char(trunc(sysdate,'dd'))||' '||:NEW.I_LAST_UPDATE, 'dd.mm.yy hh24:mi:ss');<br>    oldTime:=to_date(to_char(trunc(sysdate,'dd'))||' '||:OLD.I_LAST_UPDATE, 'dd.mm.yy hh24:mi:ss');<br>    --DBMS_OUTPUT.PUT_LINE('DO IT!' || :OLD.TTIME || '---!');<br>    if (<br>        (to_char(oldTime,'mi')&lt;&gt;to_char(newTime,'mi'))<br>        and<br>            (<br>             (to_char(newTime,'mi')='00') or<br>             (to_char(newTime,'mi')='15') or<br>             (to_char(newTime,'mi')='30') or<br>             (to_char(newTime,'mi')='45')<br>             )<br>       )  then<br>     --DBMS_OUTPUT.PUT_LINE('DO IT!1111');  <br>      p_ticker :='';<br>        if :OLD.TICKER = 'SBER' THEN  p_ticker :='SBER3'; end if;<br>        if :OLD.TICKER = 'GAZP' THEN  p_ticker :='GAZP'; end if;<br>        if :OLD.TICKER = 'CHMF' THEN  p_ticker :='CHMF'; end if;<br>     <br>     if p_ticker ='SBER3' or p_ticker ='GAZP' or p_ticker ='CHMF'  then<br>   -- DBMS_OUTPUT.PUT_LINE('DO IT!1111 '||p_ticker);  <br>   <br>    select distinct paper_no into p_paper from orabet.pseudo_system where asset=p_ticker;<br>    --DBMS_OUTPUT.PUT_LINE('oldtime '||oldTime);<br>   -- DBMS_OUTPUT.PUT_LINE('oldtime trunc is'||to_char(trunc (oldTime, 'mi'),'dd.mm.yy hh24:mi:ss'));<br>   -- insert into bcs.log(id, value) values (dimo.main_seq.nextval, oldTime+' '+:OLD.PRICE);<br>   --DBMS_OUTPUT.PUT_LINE('insert into alfadirect.arch_min15(paper_no, time, open, high, low, close, quantity) values ('||p_paper||','||'to_date('''||to_char(oldTime,'dd.mm.yyyy hh24:mi:ss')||''',''dd.mm.yyyy hh24:mi:ss'')'||',0, 0, 0,'||212000||',0)');<br>   execute immediate 'insert into orabet.arch_min15(paper_no, time, open, high, low, close, quantity) values ('||p_paper||','||'to_date('''||to_char(trunc(newTime,'mi')-15/60/24,'dd.mm.yyyy hh24:mi:ss')||''',''dd.mm.yyyy hh24:mi:ss'')'||',0, 0, 0,'||replace(to_char(:OLD.LAST_PRICE),',','.')||',0)';<br>   end if;<br>   --   insert into alfadirect.arch_min15(paper_no, time, open, high, low, close, quantity)<br>    --values (p_paper, oldTime, 0, 0, 0, :OLD.PRICE, 0);<br>    end if;<br>    END IF;<br> END trgafterupate;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">AFTER</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert, Update</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Enabled</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Trigger_{83D28303-DEF0-49AB-96DA-BDB9027B0E44}" class="item">
+<a name = "Trigger_{83D28303-DEF0-49AB-96DA-BDB9027B0E44}"></a>
+<div class="caption1"><p>ORABET.VM_ADM_QUOTES_Q -> ORABET.TRGQUIKNEWDATA</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">TRGQUIKNEWDATA</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.VM_ADM_QUOTES_Q</td>
+</tr>
+</table>
+<br>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Body</td>
+</tr>
+<tr>
+<td class="tabdata"><pre><code>DECLARE<br> tmpVar NUMBER;<br> tmpDate DATE;<br> tmpOpen NUMBER;<br> tmpHigh NUMBER;<br> tmpLow  NUMBER;<br> tmpClose NUMBER;<br> oldTime date;<br> newTime date;<br> minutes_new int;<br> minutes_old int;  <br> sig VARCHAR2(200);<br> p_ticker varchar2(200);<br> p_paper varchar2(200);<br> BEGIN<br> IF UPDATING <br> THEN<br>    newTime:=to_date(to_char(trunc(sysdate,'dd'))||' '||:NEW.I_LAST_UPDATE, 'dd.mm.yy hh24:mi:ss');<br>    oldTime:=to_date(to_char(trunc(sysdate,'dd'))||' '||:OLD.I_LAST_UPDATE, 'dd.mm.yy hh24:mi:ss');<br>   <br>    if (<br>        (to_char(oldTime,'mi')&lt;&gt;to_char(newTime,'mi'))<br>        and<br>            (<br>             (to_char(newTime,'mi')='00') or<br>             (to_char(newTime,'mi')='15') or<br>             (to_char(newTime,'mi')='30') or<br>             (to_char(newTime,'mi')='45')<br>             )<br>       )  <br>    then<br>      begin<br>        p_ticker :='';   <br>        if :OLD.TICKER = 'SBER' THEN  p_ticker :='SBER3'; end if;<br>        if :OLD.TICKER = 'GAZP' THEN  p_ticker :='GAZP'; end if;<br>        if :OLD.TICKER = 'CHMF' THEN  p_ticker :='CHMF'; end if;<br>           <br>    <br>     -- case :OLD.TICKER <br>     --   WHEN 'SBER' THEN  p_ticker :='SBER3';<br>     --   WHEN 'GAZP' THEN  p_ticker :='GAZP';<br>     --   WHEN 'CHMF' THEN  p_ticker :='CHMF';<br>     --   else p_ticker :='';          <br>     -- end case;    <br>         if p_ticker&lt;&gt;'' <br>         then   <br>            select distinct paper_no into p_paper from orabet.pseudo_system where asset=p_ticker;<br>            execute immediate 'insert into orabet.arch_min15(paper_no, time, open, high, low, close, quantity) values ('||p_paper||','||'to_date('''||to_char(trunc(newTime,'mi')-15/60/24,'dd.mm.yyyy hh24:mi:ss')||''',''dd.mm.yyyy hh24:mi:ss'')'||',0, 0, 0,'||replace(to_char(:OLD.LAST_PRICE),',','.')||',0)';<br>         end if;<br>      end;          <br>    end if;<br> END IF;<br> END VM_ADM_QUOTES_Q_TRIGGER;</code></pre></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Trigger Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Trigger Fire</td>
+<td class="tabdata" width="80%">AFTER</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Trigger Events</td>
+<td class="tabdata" width="80%">Insert, Update</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - OLD</td>
+<td class="tabdata" width="80%">OLD</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Correlation Name - NEW</td>
+<td class="tabdata" width="80%">NEW</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">For Each Row</td>
+<td class="tabdata" width="80%">YES</td>
+</tr>
+<tr>
+<td class="tabhead" width="20%">Enabled</td>
+<td class="tabdata" width="80%">NO</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+ <br>
+<a name = "Trigger_VIEWS"></a>
+</div><div id="footer"><div class="pageFooter">Copyright &copy; Sitename 2005</div><div class="footerEnd"><p></p></div></div></div></div></body></html>

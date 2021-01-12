@@ -1,0 +1,767 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="TDM_Report">
+        <link rel="stylesheet" type="text/css" media="screen" href="anim.css" title="report">
+        <link rel="stylesheet" type="text/css" media="print" href="anim_NoFrames_print.css" title="report">
+            <script src="tdmShowDetails.js" type="text/javascript"></script>
+        <title>Toad Data Modeler - HTML Report</title>
+    </head>
+
+<body onLoad="getUrlItem()"><div class="mainContainer"><div id="headerContainer"><div id="header"><div class="title1"></div><div class="title2">Keys</div><div class="reportStats">12 января 2021 г. 20:53:10</div><div class="titleimage"><a href="https://www.quest.com/" target="_blank"><img src="Img/logo.png" alt="Made with Toad Data Modeler" border="0" /></a></div><div class="headerEnd"><p>&nbsp;</p></div></div><div id="navTop"><ul><li><a href="MInfo.html">Model Info</a></li><li><a href="MImage.html">ER Diagram</a></li><li><a href="Tables.html">Entities</a></li><li><a href="Columns.html">Attributes</a></li><li><a href="Indexes.html">Indexes</a></li><li class="selLi"><a href="Keys.html" class="selAnchor">Keys</a></li><li><a href="Relations.html">Relationships</a></li><li><a href="Triggers.html">Triggers</a></li><li><a href="Packages.html">Packages</a></li><li><a href="Sequences.html">Sequences</a></li></ul><div id="navTopEnd"><p>&nbsp;</p></div></div></div><div id="navCombo"><form name="allItems" action=""><select name="listOfItems" onChange="showSelected()"><option value="Key_{32B9D3E8-DA2D-4BEF-95F6-0121E0559798}">ACTIVESP_CODEPK (ORABET.ACTIVES)</option><option>------------</option><option value="Key_{464A9B3C-19A0-4524-98E5-B23C3D3A1DA4}">SYS_C0011131 (ORABET.ALERT_TABLE)</option><option>------------</option><option value="Key_{FF0EEC78-281A-42AF-826F-11C1D3841EEF}">PK (ORABET.ALERTNEWDATA)</option><option>------------</option><option value="Key_{8AD00F34-3B84-4FCD-824A-0EE20DB1CBDD}">ARCH_MIN1PAPER_NOTTIMEPK (ORABET.ARCH_MIN1)</option><option>------------</option><option value="Key_{EC3A9E72-4C61-4096-A37A-58C2398FD5F7}">ARCH_MIN15PAPER_NOTTIMEPK (ORABET.ARCH_MIN15)</option><option>------------</option><option value="Key_{F9ACAB70-BE4B-469F-B040-AD3DA5DE6A79}">ARCH_MIN15_2PAPER_NOTTIMEPK (ORABET.ARCH_MIN15_2)</option><option>------------</option><option value="Key_{4F44B699-851D-4A1E-99C7-CF54661992F5}">ARCH_MIN30PAPER_NOTTIMEPK (ORABET.ARCH_MIN30)</option><option>------------</option><option value="Key_{A16E0F52-4E2C-4F4B-9C62-C5DA4098E11C}">ARCH_MIN5PAPER_NOTTIMEPK (ORABET.ARCH_MIN5)</option><option>------------</option><option value="Key_{0E39BB6C-455F-48A4-BA6E-366ADB2E779A}">ARCH_MIN60PAPER_NOTTIMEPK (ORABET.ARCH_MIN60)</option><option>------------</option><option value="Key_{3D5EFA63-E396-4282-9CAB-8B3CC7E03152}">BT_GA_TUNE_PK (ORABET.BT_GA_TUNE)</option><option>------------</option><option value="Key_{0269F98C-16D7-4C96-915B-C95DEB5B4066}">BT_PAPERS_ID (ORABET.BT_PAPERS)</option><option>------------</option><option value="Key_{F4C7082F-D1E3-41A6-9598-30275B4269C9}">BT_STRATEGY_ID (ORABET.BT_STRATEGY)</option><option>------------</option><option value="Key_{FD601C33-C362-43A6-B61B-C65E2319C9C0}">BT_STRATEGY_MODULE_ID (ORABET.BT_STRATEGY_MODULE)</option><option>------------</option><option value="Key_{D3BCAE2D-CF71-4528-966F-ED47E3166DF0}">BT_STRATEGY_MODULE_PARAMS_PK (ORABET.BT_STRATEGY_MODULE_PARAMS)</option><option>------------</option><option value="Key_{7B99BD79-FECB-4290-A533-27FD51F78F01}">SYS_C0011163 (ORABET.LAST_SIGNAL)</option><option>------------</option><option value="Key_{E1D4AACA-BBDF-4ED4-9C78-BA8085BDB6F6}">PAPERSPAPER_NOPK (ORABET.PAPERS)</option><option>------------</option><option value="Key_{570275D4-CF01-4241-9D60-10E2BDEEC9B6}">PSEUDO_SYSTEM_PN_UNIQUE (ORABET.PSEUDO_SYSTEM)</option><option value="Key_{2F14309D-AC58-402B-A38D-4971A0D189B3}">PSEUDO_SYSTEM_UK1 (ORABET.PSEUDO_SYSTEM)</option><option value="Key_{5315702C-D4D3-4D6D-9B42-E57FDDCF9E7C}">SYS_C0011178 (ORABET.PSEUDO_SYSTEM)</option><option>------------</option><option value="Key_{C9A97CAA-CC8F-483F-BCC7-FCB895615391}">SMS_MAILING_LIST_PK (ORABET.SMS_MAILING_LIST)</option><option>------------</option><option value="Key_{8A7E2606-9C74-497B-8D56-EEBB3F9FACFB}">STRATEGY_INIT_PK (ORABET.STRATEGY_INIT)</option><option>------------</option><option value="Key_{CBBBAD79-44B0-4E93-AD91-6015FA831ED7}">STRATEGY_TYPES_PK (ORABET.STRATEGY_TYPES)</option><option value="Key_{4433A16D-8130-4549-9078-805D4D028FF9}">STRATEGY_TYPES_U01 (ORABET.STRATEGY_TYPES)</option><option>------------</option><option value="Key_{7B0D124B-34AF-49F4-8D7C-9CD513090695}">SYS_C0014440 (ORABET.SYS_PARAMS)</option><option value="Key_{0D4A64A4-C617-48B6-9769-C8A90BA30682}">SYS_C0014499 (ORABET.SYS_PARAMS)</option><option value="Key_{206479F7-D8C5-4968-BD72-08CBECD79E72}">SYS_PARAMS_PK (ORABET.SYS_PARAMS)</option><option>------------</option><option value="Key_{DDB0E9BD-4F60-4691-B220-4448114C8F57}">SYSTEM_SIGNAL_PK (ORABET.SYSTEM_SIGNAL)</option><option>------------</option><option value="Key_{576B74C7-1D6B-4595-B4B5-11E507C8447B}">SYSTEM_SIGNAL2_PK (ORABET.SYSTEM_SIGNAL2)</option><option>------------</option><option value="Key_{30A7B87C-48FD-4966-8AC8-A92C74399491}">SYSTEM_USERS_PK (ORABET.SYSTEM_USERS_REN_BY_ME)</option><option value="Key_{64828EC7-78AF-4838-87AD-368EFBA65E02}">SYSTEM_USERS_U01 (ORABET.SYSTEM_USERS_REN_BY_ME)</option><option>------------</option><option value="Key_{A929C64A-06B1-46E3-9921-FB0F5D00901C}">TRADECENTERSECTIONS_PK (ORABET.TRADECENTERSECTIONS)</option></select></form><div id="navComboEnd"><p></p></div></div><div id="navLeft"><div id="bookmark"><ul><li><a onClick="return showDetail('Key_{32B9D3E8-DA2D-4BEF-95F6-0121E0559798}', this)">ACTIVESP_CODEPK (ORABET.ACTIVES)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{464A9B3C-19A0-4524-98E5-B23C3D3A1DA4}', this)">SYS_C0011131 (ORABET.ALERT_TABLE)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{FF0EEC78-281A-42AF-826F-11C1D3841EEF}', this)">PK (ORABET.ALERTNEWDATA)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{8AD00F34-3B84-4FCD-824A-0EE20DB1CBDD}', this)">ARCH_MIN1PAPER_NOTTIMEPK (ORABET.ARCH_MIN1)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{EC3A9E72-4C61-4096-A37A-58C2398FD5F7}', this)">ARCH_MIN15PAPER_NOTTIMEPK (ORABET.ARCH_MIN15)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{F9ACAB70-BE4B-469F-B040-AD3DA5DE6A79}', this)">ARCH_MIN15_2PAPER_NOTTIMEPK (ORABET.ARCH_MIN15_2)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{4F44B699-851D-4A1E-99C7-CF54661992F5}', this)">ARCH_MIN30PAPER_NOTTIMEPK (ORABET.ARCH_MIN30)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{A16E0F52-4E2C-4F4B-9C62-C5DA4098E11C}', this)">ARCH_MIN5PAPER_NOTTIMEPK (ORABET.ARCH_MIN5)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{0E39BB6C-455F-48A4-BA6E-366ADB2E779A}', this)">ARCH_MIN60PAPER_NOTTIMEPK (ORABET.ARCH_MIN60)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{3D5EFA63-E396-4282-9CAB-8B3CC7E03152}', this)">BT_GA_TUNE_PK (ORABET.BT_GA_TUNE)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{0269F98C-16D7-4C96-915B-C95DEB5B4066}', this)">BT_PAPERS_ID (ORABET.BT_PAPERS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{F4C7082F-D1E3-41A6-9598-30275B4269C9}', this)">BT_STRATEGY_ID (ORABET.BT_STRATEGY)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{FD601C33-C362-43A6-B61B-C65E2319C9C0}', this)">BT_STRATEGY_MODULE_ID (ORABET.BT_STRATEGY_MODULE)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{D3BCAE2D-CF71-4528-966F-ED47E3166DF0}', this)">BT_STRATEGY_MODULE_PARAMS_PK (ORABET.BT_STRATEGY_MODULE_PARAMS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{7B99BD79-FECB-4290-A533-27FD51F78F01}', this)">SYS_C0011163 (ORABET.LAST_SIGNAL)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{E1D4AACA-BBDF-4ED4-9C78-BA8085BDB6F6}', this)">PAPERSPAPER_NOPK (ORABET.PAPERS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{570275D4-CF01-4241-9D60-10E2BDEEC9B6}', this)">PSEUDO_SYSTEM_PN_UNIQUE (ORABET.PSEUDO_SYSTEM)</a></li><li><a onClick="return showDetail('Key_{2F14309D-AC58-402B-A38D-4971A0D189B3}', this)">PSEUDO_SYSTEM_UK1 (ORABET.PSEUDO_SYSTEM)</a></li><li><a onClick="return showDetail('Key_{5315702C-D4D3-4D6D-9B42-E57FDDCF9E7C}', this)">SYS_C0011178 (ORABET.PSEUDO_SYSTEM)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{C9A97CAA-CC8F-483F-BCC7-FCB895615391}', this)">SMS_MAILING_LIST_PK (ORABET.SMS_MAILING_LIST)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{8A7E2606-9C74-497B-8D56-EEBB3F9FACFB}', this)">STRATEGY_INIT_PK (ORABET.STRATEGY_INIT)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{CBBBAD79-44B0-4E93-AD91-6015FA831ED7}', this)">STRATEGY_TYPES_PK (ORABET.STRATEGY_TYPES)</a></li><li><a onClick="return showDetail('Key_{4433A16D-8130-4549-9078-805D4D028FF9}', this)">STRATEGY_TYPES_U01 (ORABET.STRATEGY_TYPES)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{7B0D124B-34AF-49F4-8D7C-9CD513090695}', this)">SYS_C0014440 (ORABET.SYS_PARAMS)</a></li><li><a onClick="return showDetail('Key_{0D4A64A4-C617-48B6-9769-C8A90BA30682}', this)">SYS_C0014499 (ORABET.SYS_PARAMS)</a></li><li><a onClick="return showDetail('Key_{206479F7-D8C5-4968-BD72-08CBECD79E72}', this)">SYS_PARAMS_PK (ORABET.SYS_PARAMS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{DDB0E9BD-4F60-4691-B220-4448114C8F57}', this)">SYSTEM_SIGNAL_PK (ORABET.SYSTEM_SIGNAL)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{576B74C7-1D6B-4595-B4B5-11E507C8447B}', this)">SYSTEM_SIGNAL2_PK (ORABET.SYSTEM_SIGNAL2)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{30A7B87C-48FD-4966-8AC8-A92C74399491}', this)">SYSTEM_USERS_PK (ORABET.SYSTEM_USERS_REN_BY_ME)</a></li><li><a onClick="return showDetail('Key_{64828EC7-78AF-4838-87AD-368EFBA65E02}', this)">SYSTEM_USERS_U01 (ORABET.SYSTEM_USERS_REN_BY_ME)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{A929C64A-06B1-46E3-9921-FB0F5D00901C}', this)">TRADECENTERSECTIONS_PK (ORABET.TRADECENTERSECTIONS)</a></li></ul><div id="bookmarkEnd"><p>&nbsp;</p></div></div></div><div class="separator" ></div><div class="container"><div id="content"><div id="Key_{32B9D3E8-DA2D-4BEF-95F6-0121E0559798}" class="item">
+<a name = "Key_{32B9D3E8-DA2D-4BEF-95F6-0121E0559798}"></a>
+<div class="caption1"><p>ACTIVESP_CODEPK (ORABET.ACTIVES)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ACTIVESP_CODEPK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.ACTIVES</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">P_CODE</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{464A9B3C-19A0-4524-98E5-B23C3D3A1DA4}" class="item">
+<a name = "Key_{464A9B3C-19A0-4524-98E5-B23C3D3A1DA4}"></a>
+<div class="caption1"><p>SYS_C0011131 (ORABET.ALERT_TABLE)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYS_C0011131</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.ALERT_TABLE</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{FF0EEC78-281A-42AF-826F-11C1D3841EEF}" class="item">
+<a name = "Key_{FF0EEC78-281A-42AF-826F-11C1D3841EEF}"></a>
+<div class="caption1"><p>PK (ORABET.ALERTNEWDATA)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.ALERTNEWDATA</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{8AD00F34-3B84-4FCD-824A-0EE20DB1CBDD}" class="item">
+<a name = "Key_{8AD00F34-3B84-4FCD-824A-0EE20DB1CBDD}"></a>
+<div class="caption1"><p>ARCH_MIN1PAPER_NOTTIMEPK (ORABET.ARCH_MIN1)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ARCH_MIN1PAPER_NOTTIMEPK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.ARCH_MIN1</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">PAPER_NO, TIME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{EC3A9E72-4C61-4096-A37A-58C2398FD5F7}" class="item">
+<a name = "Key_{EC3A9E72-4C61-4096-A37A-58C2398FD5F7}"></a>
+<div class="caption1"><p>ARCH_MIN15PAPER_NOTTIMEPK (ORABET.ARCH_MIN15)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ARCH_MIN15PAPER_NOTTIMEPK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.ARCH_MIN15</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">PAPER_NO, TIME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{F9ACAB70-BE4B-469F-B040-AD3DA5DE6A79}" class="item">
+<a name = "Key_{F9ACAB70-BE4B-469F-B040-AD3DA5DE6A79}"></a>
+<div class="caption1"><p>ARCH_MIN15_2PAPER_NOTTIMEPK (ORABET.ARCH_MIN15_2)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ARCH_MIN15_2PAPER_NOTTIMEPK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.ARCH_MIN15_2</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">PAPER_NO, TIME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{4F44B699-851D-4A1E-99C7-CF54661992F5}" class="item">
+<a name = "Key_{4F44B699-851D-4A1E-99C7-CF54661992F5}"></a>
+<div class="caption1"><p>ARCH_MIN30PAPER_NOTTIMEPK (ORABET.ARCH_MIN30)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ARCH_MIN30PAPER_NOTTIMEPK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.ARCH_MIN30</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">PAPER_NO, TIME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{A16E0F52-4E2C-4F4B-9C62-C5DA4098E11C}" class="item">
+<a name = "Key_{A16E0F52-4E2C-4F4B-9C62-C5DA4098E11C}"></a>
+<div class="caption1"><p>ARCH_MIN5PAPER_NOTTIMEPK (ORABET.ARCH_MIN5)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ARCH_MIN5PAPER_NOTTIMEPK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.ARCH_MIN5</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">PAPER_NO, TIME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{0E39BB6C-455F-48A4-BA6E-366ADB2E779A}" class="item">
+<a name = "Key_{0E39BB6C-455F-48A4-BA6E-366ADB2E779A}"></a>
+<div class="caption1"><p>ARCH_MIN60PAPER_NOTTIMEPK (ORABET.ARCH_MIN60)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ARCH_MIN60PAPER_NOTTIMEPK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.ARCH_MIN60</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">PAPER_NO, TIME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{3D5EFA63-E396-4282-9CAB-8B3CC7E03152}" class="item">
+<a name = "Key_{3D5EFA63-E396-4282-9CAB-8B3CC7E03152}"></a>
+<div class="caption1"><p>BT_GA_TUNE_PK (ORABET.BT_GA_TUNE)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BT_GA_TUNE_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.BT_GA_TUNE</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{0269F98C-16D7-4C96-915B-C95DEB5B4066}" class="item">
+<a name = "Key_{0269F98C-16D7-4C96-915B-C95DEB5B4066}"></a>
+<div class="caption1"><p>BT_PAPERS_ID (ORABET.BT_PAPERS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BT_PAPERS_ID</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.BT_PAPERS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">PAPER_NO</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{F4C7082F-D1E3-41A6-9598-30275B4269C9}" class="item">
+<a name = "Key_{F4C7082F-D1E3-41A6-9598-30275B4269C9}"></a>
+<div class="caption1"><p>BT_STRATEGY_ID (ORABET.BT_STRATEGY)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BT_STRATEGY_ID</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.BT_STRATEGY</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{FD601C33-C362-43A6-B61B-C65E2319C9C0}" class="item">
+<a name = "Key_{FD601C33-C362-43A6-B61B-C65E2319C9C0}"></a>
+<div class="caption1"><p>BT_STRATEGY_MODULE_ID (ORABET.BT_STRATEGY_MODULE)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BT_STRATEGY_MODULE_ID</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.BT_STRATEGY_MODULE</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{D3BCAE2D-CF71-4528-966F-ED47E3166DF0}" class="item">
+<a name = "Key_{D3BCAE2D-CF71-4528-966F-ED47E3166DF0}"></a>
+<div class="caption1"><p>BT_STRATEGY_MODULE_PARAMS_PK (ORABET.BT_STRATEGY_MODULE_PARAMS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BT_STRATEGY_MODULE_PARAMS_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.BT_STRATEGY_MODULE_PARAMS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{7B99BD79-FECB-4290-A533-27FD51F78F01}" class="item">
+<a name = "Key_{7B99BD79-FECB-4290-A533-27FD51F78F01}"></a>
+<div class="caption1"><p>SYS_C0011163 (ORABET.LAST_SIGNAL)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYS_C0011163</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.LAST_SIGNAL</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{E1D4AACA-BBDF-4ED4-9C78-BA8085BDB6F6}" class="item">
+<a name = "Key_{E1D4AACA-BBDF-4ED4-9C78-BA8085BDB6F6}"></a>
+<div class="caption1"><p>PAPERSPAPER_NOPK (ORABET.PAPERS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">PAPERSPAPER_NOPK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.PAPERS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">PAPER_NO</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{570275D4-CF01-4241-9D60-10E2BDEEC9B6}" class="item">
+<a name = "Key_{570275D4-CF01-4241-9D60-10E2BDEEC9B6}"></a>
+<div class="caption1"><p>PSEUDO_SYSTEM_PN_UNIQUE (ORABET.PSEUDO_SYSTEM)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">PSEUDO_SYSTEM_PN_UNIQUE</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.PSEUDO_SYSTEM</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Alternate Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">PSEUDO_NAME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{2F14309D-AC58-402B-A38D-4971A0D189B3}" class="item">
+<a name = "Key_{2F14309D-AC58-402B-A38D-4971A0D189B3}"></a>
+<div class="caption1"><p>PSEUDO_SYSTEM_UK1 (ORABET.PSEUDO_SYSTEM)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">PSEUDO_SYSTEM_UK1</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.PSEUDO_SYSTEM</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Alternate Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">TRUE_NAME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{5315702C-D4D3-4D6D-9B42-E57FDDCF9E7C}" class="item">
+<a name = "Key_{5315702C-D4D3-4D6D-9B42-E57FDDCF9E7C}"></a>
+<div class="caption1"><p>SYS_C0011178 (ORABET.PSEUDO_SYSTEM)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYS_C0011178</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.PSEUDO_SYSTEM</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{C9A97CAA-CC8F-483F-BCC7-FCB895615391}" class="item">
+<a name = "Key_{C9A97CAA-CC8F-483F-BCC7-FCB895615391}"></a>
+<div class="caption1"><p>SMS_MAILING_LIST_PK (ORABET.SMS_MAILING_LIST)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SMS_MAILING_LIST_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.SMS_MAILING_LIST</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{8A7E2606-9C74-497B-8D56-EEBB3F9FACFB}" class="item">
+<a name = "Key_{8A7E2606-9C74-497B-8D56-EEBB3F9FACFB}"></a>
+<div class="caption1"><p>STRATEGY_INIT_PK (ORABET.STRATEGY_INIT)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">STRATEGY_INIT_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.STRATEGY_INIT</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{CBBBAD79-44B0-4E93-AD91-6015FA831ED7}" class="item">
+<a name = "Key_{CBBBAD79-44B0-4E93-AD91-6015FA831ED7}"></a>
+<div class="caption1"><p>STRATEGY_TYPES_PK (ORABET.STRATEGY_TYPES)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">STRATEGY_TYPES_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.STRATEGY_TYPES</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{4433A16D-8130-4549-9078-805D4D028FF9}" class="item">
+<a name = "Key_{4433A16D-8130-4549-9078-805D4D028FF9}"></a>
+<div class="caption1"><p>STRATEGY_TYPES_U01 (ORABET.STRATEGY_TYPES)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">STRATEGY_TYPES_U01</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.STRATEGY_TYPES</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Alternate Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">NAME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{7B0D124B-34AF-49F4-8D7C-9CD513090695}" class="item">
+<a name = "Key_{7B0D124B-34AF-49F4-8D7C-9CD513090695}"></a>
+<div class="caption1"><p>SYS_C0014440 (ORABET.SYS_PARAMS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYS_C0014440</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.SYS_PARAMS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Alternate Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">STRATEGY_ID, PARAM_NAME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{0D4A64A4-C617-48B6-9769-C8A90BA30682}" class="item">
+<a name = "Key_{0D4A64A4-C617-48B6-9769-C8A90BA30682}"></a>
+<div class="caption1"><p>SYS_C0014499 (ORABET.SYS_PARAMS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYS_C0014499</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.SYS_PARAMS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Alternate Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">PARAM_NAME, STRATEGY_ID</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Key Properties</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Using Index Name</td>
+<td class="tabdata" width="80%">ORABET.SYS_C0014440</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{206479F7-D8C5-4968-BD72-08CBECD79E72}" class="item">
+<a name = "Key_{206479F7-D8C5-4968-BD72-08CBECD79E72}"></a>
+<div class="caption1"><p>SYS_PARAMS_PK (ORABET.SYS_PARAMS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYS_PARAMS_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.SYS_PARAMS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{DDB0E9BD-4F60-4691-B220-4448114C8F57}" class="item">
+<a name = "Key_{DDB0E9BD-4F60-4691-B220-4448114C8F57}"></a>
+<div class="caption1"><p>SYSTEM_SIGNAL_PK (ORABET.SYSTEM_SIGNAL)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYSTEM_SIGNAL_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.SYSTEM_SIGNAL</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{576B74C7-1D6B-4595-B4B5-11E507C8447B}" class="item">
+<a name = "Key_{576B74C7-1D6B-4595-B4B5-11E507C8447B}"></a>
+<div class="caption1"><p>SYSTEM_SIGNAL2_PK (ORABET.SYSTEM_SIGNAL2)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYSTEM_SIGNAL2_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.SYSTEM_SIGNAL2</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{30A7B87C-48FD-4966-8AC8-A92C74399491}" class="item">
+<a name = "Key_{30A7B87C-48FD-4966-8AC8-A92C74399491}"></a>
+<div class="caption1"><p>SYSTEM_USERS_PK (ORABET.SYSTEM_USERS_REN_BY_ME)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYSTEM_USERS_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.SYSTEM_USERS_REN_BY_ME</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{64828EC7-78AF-4838-87AD-368EFBA65E02}" class="item">
+<a name = "Key_{64828EC7-78AF-4838-87AD-368EFBA65E02}"></a>
+<div class="caption1"><p>SYSTEM_USERS_U01 (ORABET.SYSTEM_USERS_REN_BY_ME)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYSTEM_USERS_U01</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.SYSTEM_USERS_REN_BY_ME</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Alternate Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">USERNAME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{A929C64A-06B1-46E3-9921-FB0F5D00901C}" class="item">
+<a name = "Key_{A929C64A-06B1-46E3-9921-FB0F5D00901C}"></a>
+<div class="caption1"><p>TRADECENTERSECTIONS_PK (ORABET.TRADECENTERSECTIONS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">TRADECENTERSECTIONS_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">ORABET.TRADECENTERSECTIONS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+</div><div id="footer"><div class="pageFooter">Copyright &copy; Sitename 2005</div><div class="footerEnd"><p></p></div></div></div></div></body></html>
